@@ -35,27 +35,25 @@ function main {
     pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
     echo "[chaotic-aur]" >> /etc/pacman.conf
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
-    press_a_key_to_continue
 
     echo ""
     echo ">> ADDAURA: Installing penguins-eggs..."
     echo ""
     pacman -Syu penguins-eggs
-    press_a_key_to_continue
 
-
-    clear
-    echo ">> ADDAURA: visudo"
-    echo ">> Edit /etc/sudoers"
+    echo ""
+    read -rp ">> ADDAURA: press a key to edit /etc/sudoers"
+    echo ""
     export EDITOR=nano
     visudo
-    press_a_key_to_continue
 
+    clear
     echo ""
     echo ">> ADDAURA: cleaning"
     echo ""
     rm /addaura -rf
-    press_a_key_to_continue
+    read -rp ">> ADDAURA: finished!"
+    
 }
 
 main
