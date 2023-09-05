@@ -1,5 +1,10 @@
 # addaura
 
+Addaura è una località in Sicilia, più precisamente a Palermo. 
+
+Il suo nome è famoso, specie in Italia, per il mancato attentato al giudice Falcone e la sua intervista successiva.
+
+Nel nostro caso ho utilizzato il nome di questa bella località siciliana per semplice assonanza: add aur, aggiungi la repository AUR.
 
 
 # how to get a colibri
