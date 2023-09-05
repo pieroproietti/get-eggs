@@ -2,7 +2,7 @@
 
 L'Addaura è una frazione litoranea di piccole dimensioni della città di Palermo, in Sicilia. 
 
-Ho utilizzato questo nome per semplice assonanza `add aur`:  aggiungi la repository [AUR](https://archlinux.org/packages/), e per molti - italiani e non - dovrebbe essere semplice da ricordate per due ragioni che l'hanno resa nota.
+Ho utilizzato questo nome per semplice assonanza `add aur`:  aggiungi la repository [AUR](https://aur.archlinux.org/), e per molti - italiani e non - dovrebbe essere semplice da ricordate per due ragioni che l'hanno resa nota.
 
 ## La grotta dell'Addaura
 La grotta dell'Addaura è un complesso di tre grotte naturali poste sul fianco nord-orientale del monte Pellegrino a Palermo, in Sicilia. L'importanza del complesso è determinata dalla presenza di incisioni rupestri databili fra l'Epigravettiano finale e il Mesolitico.
