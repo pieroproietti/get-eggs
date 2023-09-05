@@ -43,9 +43,10 @@ function main {
     pacman -Syu penguins-eggs
     press_a_key_to_continue
 
-    echo ""
+
+    clear
     echo ">> ADDAURA: visudo"
-    echo ""
+    echo ">> Edit /etc/sudoers"
     export EDITOR=nano
     visudo
     press_a_key_to_continue
@@ -53,7 +54,7 @@ function main {
     echo ""
     echo ">> ADDAURA: cleaning"
     echo ""
-    rm /penguins-wardrobe -rf
+    rm /addaura -rf
     press_a_key_to_continue
 }
 
