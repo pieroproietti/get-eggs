@@ -15,13 +15,12 @@ At this point, we MUST configure network, I just choose the most basic: `Copy IS
 Finally select install and wait it finish. Archinstall will propose you to chroot to continue configuration, answer yes.
 
 Now we are chrooted and we can clone our wardrobe: 
-* `git clone https://github.com/pieroproietti/penguins-wardrobe`
+* `git clone https://github.com/pieroproietti/addaura`
 
 Then add AUR repository and penguins-eggs:
-* `cd penguins-wardrobe/scripts`
-* `sudo addaur.sh`.
+* `sudo addaurs/addaura.sh`.
 
-`addaur.sh` will install few packages `bash-completion`, `dialog`, `man-db`, `nano`, `openssh` and `wget` and will add [AUR](https://aur.archlinux.org/)  repository to pacman.conf.
+`addaura.sh` will install few packages `bash-completion`, `dialog`, `man-db`, `nano`, `openssh` and `wget` and will add [AUR](https://aur.archlinux.org/)  repository to pacman.conf.
 
 At last `addaur..sh` will install penguins-eggs.
 
