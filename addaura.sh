@@ -7,10 +7,11 @@ function press_a_key_to_continue {
 
 function is_arch {
     RELEASE=$(lsb_release -is)
-    if [ "$RELEASE" != "Arch" ]; then
+    if [ "$RELEASE" = "Arch" ] || [ "$RELEASE" = "EndeavourOS" ]; then
         echo ">> ADDAUR is for Arch!"
         exit
     fi
+
 }
 
 function main {
