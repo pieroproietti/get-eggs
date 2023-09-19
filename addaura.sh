@@ -7,15 +7,29 @@ function press_a_key_to_continue {
 
 function is_arch {
     RELEASE=$(lsb_release -is)
-    if [ "$RELEASE" = "Arch" ] || [ "$RELEASE" = "EndeavourOS" ]; then
-        echo ">> ADDAUR is for Arch!"
-        exit
-    fi
+    case $RELEASE in 
+        Arch)
+            echo ">> ADDAURA: OK, is Arch"
+            ;;
+        EndeavourOS)
+            echo ">> ADDAURA: OK, is EndeavourOS"
+            ;;
+        *)
+          echo ">> ADDAURA: is for Arch!"
+          exit
+    esac        
+}
 
+function is_aur {
+    if grep -Fxq "[chaotic-aur]" /etc/pacman.conf; then
+        echo ">> ADDAURA: chaotic-aur already present!"
+        exit
+    fi    
 }
 
 function main {
     is_arch
+    is_aur
 
     echo ""
     echo ">> ADDAURA: add spare tools..."
