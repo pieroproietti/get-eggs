@@ -63,21 +63,8 @@ function main {
     visudo
 
     clear
-    echo ""
-    echo ">> ADDAURA: cleaning"
-    echo ""
-    FILE=addaura.sn
-    if test -f "$FILE"; then
-        cd ..
-    fi
-    ADDAURA=./addaura
-    if [ -d "$ADDAURA" ]; then
-        rm "$ADDAURA" -rf
-    fi    
-    if test -f "$FILE"; then
-        cd ..
-    fi
-    read -rp ">> ADDAURA: finished!"
+    echo ">> ADDAURA: finished"
+    read -rp ">> ADDAURA: you can remove it!"
     
 }
 
