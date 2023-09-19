@@ -52,7 +52,17 @@ function main {
     echo ""
     echo ">> ADDAURA: cleaning"
     echo ""
-    rm /addaura -rf
+    FILE=addaura.sn
+    if test -f "$FILE"; then
+        cd ..
+    fi
+    ADDAURA=./addaura
+    if [ -d "$ADDAURA" ]; then
+        rm "$ADDAURA" -rf
+    fi    
+    if test -f "$FILE"; then
+        cd ..
+    fi
     read -rp ">> ADDAURA: finished!"
     
 }
