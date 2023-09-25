@@ -11,8 +11,20 @@ function is_arch {
         Arch)
             echo ">> ADDAURA: OK, is Arch"
             ;;
+        ArcoLinux)
+            echo ">> ADDAURA: OK, is ArcoLinux"
+            ;;
+        blendOS)
+            echo ">> ADDAURA: OK, is blendOS"
+            ;;
         EndeavourOS)
             echo ">> ADDAURA: OK, is EndeavourOS"
+            ;;
+        phyOS)
+            echo ">> ADDAURA: OK, is phyOS"
+            ;;
+        RebornOS)
+            echo ">> ADDAURA: OK, is RebornOS"
             ;;
         *)
           echo ">> ADDAURA: is for Arch!"
