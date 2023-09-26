@@ -6,8 +6,8 @@ function press_a_key_to_continue {
 }
 
 function is_debian {
-    RELEASE=$(lsb_release -is)
-    case $RELEASE in 
+    CODENAME=$(lsb_release -cs)
+    case $CODENAME in 
         buster)
             echo ">> PPA: OK, is Debian"
             ;;
@@ -46,7 +46,7 @@ function is_ppa {
     
     FILE=/etc/apt/sources.list.d/penguins-eggs-ppa.list
     if test -f "$FILE"; then
-        echo ">> PPS: penguins-eggs-ppa.list already present!"
+        echo ">> PPA: penguins-eggs-ppa.list already present!"
         exit
     fi
 }
