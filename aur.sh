@@ -74,10 +74,11 @@ function main {
     export EDITOR=nano
     visudo
 
+    eggs dad -d
+
     clear
     echo ">> ADDAURA: finished"
     read -rp ">> ADDAURA: you can remove it!"
-    
 }
 
 main
