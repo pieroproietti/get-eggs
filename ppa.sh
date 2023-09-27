@@ -11,6 +11,9 @@ function is_debian {
         buster)
             echo ">> PPA: OK, is Debian"
             ;;
+        bullseye)
+            echo ">> PPA: OK, is Debian"
+            ;;
         bookworm)
             echo ">> PPA: OK, is Debian"
             ;;
