@@ -13,7 +13,23 @@ Finally select install and wait it finish. Archinstall will propose you to chroo
 ## Debian/Devuan/Ubuntu
 On Debian and Devuan we start with a common netinst, without install nothing except `standard system utilies`
 
+![standard system utilies](./standard-system-utilies.png)
+
+When the installation finish, reboot the system.
+
+We need now to install `git` and `sudo`.
+
+Log on your system, then:
+
+* `su`
+* `apt install git sudo`
+* `/usr/sbin/adduser artisan sudo`
+
+We can logout, and we are ready to the next step.
+
 On Ubuntu, we install with the server edition, again without install nothing except the minimal base. Here, at the end of installation I use to remove package `cloud-init` we are not interested on.
+
+After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
 # get and run addaura
 
