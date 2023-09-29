@@ -31,7 +31,7 @@ On Ubuntu, we install with the server edition, again without install nothing exc
 
 After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
-# get and run addaura
+# Get and run addaura
 
 * `git clone https://github.com/pieroproietti/addaura`
 * `cd addaura`
