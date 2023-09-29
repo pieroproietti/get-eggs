@@ -11,7 +11,7 @@ At this point, we MUST configure network, I just choose the most basic: `Copy IS
 Finally select install and wait it finish. Archinstall will propose you to chroot to continue configuration, answer no and reboot.
 
 ## Debian/Devuan/Ubuntu
-On Debian and Devuan we start with a common netinst, without install nothing except `common`
+On Debian and Devuan we start with a common netinst, without install nothing except `standard system utilies`
 
 On Ubuntu, we install with the server edition, again without install nothing except the minimal base. Here, at the end of installation I use to remove package `cloud-init` we are not interested on.
 
