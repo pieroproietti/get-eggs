@@ -1,6 +1,8 @@
-# how to get a colibri on Arch or Debian/Devuan/Ubuntu
+# How to get a colibri
 
 We are going to describe how to go from a minimal standard installation to a complete remasterable system using addaura.
+
+ This procedure work on Debian (buster, bulleye, bookworm), Devuan (chimaera and daedalus), Ubuntu (bionic, focal and jammy) and Arch rolling.
 
 ## Arch
 I started with latest version of archiso: `archlinux-2023.09.01-x86_64.iso`.
@@ -50,7 +52,7 @@ At last `addaura.sh` will install penguins-eggs.
 ## Debian/Devuan and Ubuntu
 `addaura.sh` will install new ppa, then will install penguins-eggs and its dependencies.
 
-# Get wardrobe and wear a costume (alll)
+# Get wardrobe and wear a costume (all)
 Once eggs was installed, I proceeded to load the wardrobe and "dress" the system with the colibri costume.
 * `eggs wardrobe get`
 * `sudo eggs wardrobe wear colibri`
