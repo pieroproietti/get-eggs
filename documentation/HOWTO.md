@@ -36,21 +36,22 @@ On Ubuntu, we install with the server edition, again without install nothing exc
 
 After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
-# Get and run addaura
+# Get and run addaura (all)
 
 * `git clone https://github.com/pieroproietti/addaura`
 * `cd addaura`
 * `sudo ./addaura.sh`
+
+# That will happen
+eggs will be installed and configured properly for the chosen distribution.
 
 ## Arch
 `addaura.sh` will install few packages `bash-completion`, `dialog`, `man-db`, `nano`, `openssh` and `wget` and will add [AUR](https://aur.archlinux.org/)  repository to pacman.conf.
 
 At last `addaura.sh` will install penguins-eggs.
 
-* `sudo pacman -Syu penguins-eggs`.
-
 ## Debian/Devuan and Ubuntu
-`addaura.sh` will install new ppa, then will install penguins-eggs and its dependencies.
+`addaura.sh` will install new `ppa` for `penguins-eggs`, then will install eggs and its dependencies.
 
 # Get wardrobe and wear a costume (all)
 Once eggs was installed, I proceeded to load the wardrobe and "dress" the system with the colibri costume.
@@ -68,3 +69,5 @@ Well, we are ready to remaster the system, just a little reconfiguration and cle
 That's all folks!
 
 ![arch-btrfs-colibri](https://github.com/pieroproietti/penguins-eggs/assets/958613/af5bb156-c86e-422d-8ed0-f4eef82d249d)
+
+![debian](./colibri-debian.png)
