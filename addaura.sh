@@ -7,12 +7,22 @@ if [ "$ID_LIKE" = "debian" -o "$ID" = "debian" ]; then
 elif [ "$ID_LIKE" = "archlinux" -o "$ID" = "arch" ]; then
     . ./aur.sh
 
-# Debian derivatives
-elif [ "$ID" = "neon" ]; then
+# Debian/Devuan/ubuntu derivatives
+
+# elementary
+elif [ "$ID" = "elementary" ]; then
     . ./ppa.sh
 
-# Ubuntu derivatives    
-elif [ "$ID" = "elementary" ]; then
+# linuxmint Ubuntu
+elif [ "$ID" = "victoria" ]; then
+    . ./ppa.sh
+
+# LMDE
+elif [ "$ID" = "faye" ]; then
+    . ./ppa.sh
+
+# neon
+elif [ "$ID" = "neon" ]; then
     . ./ppa.sh
 
 fi
