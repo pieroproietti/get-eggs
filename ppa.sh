@@ -10,17 +10,17 @@ function is_debian {
     case $CODENAME in 
         # Debian
         buster | bullseye | bookworm | trixie)
-            echo ">> PPA: OK, is Debian"
+            echo ">> PPA: OK, is Debian or derivatives"
             ;;
 
         # Devuan
         chimaera | daedalus)
-            echo ">> PPA OK, is Devuan"
+            echo ">> PPA OK, is Devuan or derivatives"
             ;;
 
         # Ubuntu
         bionic | focal | jammy | noble)
-            echo ">> PPA OK, is Ubuntu"
+            echo ">> PPA OK, is Ubuntu or derivatives"
             ;;
 
         #
@@ -29,12 +29,12 @@ function is_debian {
 
         # linuxmint
         vera | victoria)
-            echo ">> PPA OK, is Linuxmint"
+            echo ">> PPA OK, is Linuxmint or derivatives"
             ;;
 
         # LMDE
         elsie | faye)
-            echo ">> PPA OK, is LMDE"
+            echo ">> PPA OK, is LMDE or derivatives"
             ;;
 
 
