@@ -42,6 +42,7 @@ function is_debian {
             echo ">> PPA OK, is Linuxmint or derivatives"
             ;;
 
+        # kali
         kali-rolling)
             echo ">> PPA OK, is Kali or derivatives"
             ;;
