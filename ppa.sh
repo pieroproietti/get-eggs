@@ -43,6 +43,9 @@ function is_debian {
             echo ">> PPA OK, is LMDE or derivatives"
             ;;
 
+        kali-rolling)
+            echo ">> PPA OK, is Kali or derivatives"
+            ;;
 
         *)
           echo ">> PPA: is for Debian/Devuan/Ubuntu amd derivatives!"
