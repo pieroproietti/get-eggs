@@ -8,37 +8,36 @@ function press_a_key_to_continue {
 function is_debian {
     CODENAME=$(lsb_release -cs)
     case $CODENAME in 
-        buster)
+        # Debian
+        buster | bullseye | bookworm | trixie)
             echo ">> PPA: OK, is Debian"
-            ;;
-        bullseye)
-            echo ">> PPA: OK, is Debian"
-            ;;
-        bookworm)
-            echo ">> PPA: OK, is Debian"
-            ;;
-        trixie)
-            echo ">> PPA OK, is Debian"
             ;;
 
         # Devuan
-        chimaera)
-            echo ">> PPA OK, is Devuan"
-            ;;
-        daedalus)
+        chimaera | daedalus)
             echo ">> PPA OK, is Devuan"
             ;;
 
         # Ubuntu
-        bionic)
+        bionic | focal | jammy | noble)
             echo ">> PPA OK, is Ubuntu"
             ;;
-        focal)
-            echo ">> PPA OK, is Ubuntu"
+
+        #
+        # derivatives
+        #
+
+        # linuxmint
+        vera | victoria)
+            echo ">> PPA OK, is Linuxmint"
             ;;
-        jammy)
-            echo ">> PPA OK, is Ubuntu"
+
+        # LMDE
+        elsie | faye)
+            echo ">> PPA OK, is LMDE"
             ;;
+
+
         *)
           echo ">> PPA: is for DEBIAN!"
           exit
