@@ -39,7 +39,7 @@ function is_debian {
 
 
         *)
-          echo ">> PPA: is for DEBIAN!"
+          echo ">> PPA: is for Debian/Devuan/Ubuntu amd derivatives!"
           exit
     esac        
 }
