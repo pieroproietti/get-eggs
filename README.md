@@ -2,7 +2,7 @@
 
 
 # ADDAURA
-Addaura, add penguins-eggs to your Arch, Debian, Devuan or Ubuntu original distro.
+Addaura, add penguins-eggs to your Arch, Debian, Devuan or Ubuntu or derivatives.
 
 On Arch, you will add AUR repository - from there the [name](./documentation/NAMING.md) - on Debian famility, you will add a ppa for penguins-eggs.
 
