@@ -2,23 +2,26 @@
 
 . /etc/os-release
 
-if [ "$ID_LIKE" = "debian" -o "$ID" = "debian" ]; then
+# Read $ID
+if [ "$ID" = "debian" ]; then
     . ./ppa.sh
-elif [ "$ID_LIKE" = "archlinux" -o "$ID" = "arch" ]; then
+elif [ "$ID" = "arch" ]; then
     . ./aur.sh
+fi
 
-# Debian/Devuan/ubuntu derivatives
+# $ID changed, but $ID_LIKE
+if [ "$ID_LIKE" = "debian" ]; then
+    . ./ppa.sh
+elif [ "$ID_LIKE" = "archlinux" ]; then
+    . ./aur.sh
+fi
+
+#
+# $ID changed, ID_LIKE not set
+# 
 
 # elementary
-elif [ "$ID" = "elementary" ]; then
-    . ./ppa.sh
-
-# linuxmint Ubuntu
-elif [ "$ID" = "victoria" ]; then
-    . ./ppa.sh
-
-# LMDE
-elif [ "$ID" = "faye" ]; then
+if [ "$ID" = "elementary" ]; then
     . ./ppa.sh
 
 # neon
