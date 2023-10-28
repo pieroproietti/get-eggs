@@ -10,4 +10,9 @@ elif [ "$ID_LIKE" = "archlinux" -o "$ID" = "arch" ]; then
 # Debian derivatives
 elif [ "$ID" = "neon" ]; then
     . ./ppa.sh
+
+# Ubuntu derivatives    
+elif [ "$ID" = "elementary" ]; then
+    . ./ppa.sh
+
 fi

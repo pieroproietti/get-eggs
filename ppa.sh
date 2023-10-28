@@ -27,6 +27,12 @@ function is_debian {
         # derivatives
         #
 
+        #elementary
+        horus)
+            echo ">> PPA OK, is Elementary or derivatives"
+            ;;
+
+
         # linuxmint
         vera | victoria)
             echo ">> PPA OK, is Linuxmint or derivatives"
