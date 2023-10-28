@@ -32,15 +32,14 @@ function is_debian {
             echo ">> PPA OK, is Elementary or derivatives"
             ;;
 
+        # LMDE
+        elsie | faye)
+            echo ">> PPA OK, is LMDE or derivatives"
+            ;;
 
         # linuxmint
         vera | victoria)
             echo ">> PPA OK, is Linuxmint or derivatives"
-            ;;
-
-        # LMDE
-        elsie | faye)
-            echo ">> PPA OK, is LMDE or derivatives"
             ;;
 
         kali-rolling)
