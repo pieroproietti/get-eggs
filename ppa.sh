@@ -54,7 +54,7 @@ function is_debian {
 
 
         *)
-          echo ">> PPA: is for Debian/Devuan/Ubuntu amd derivatives!"
+          echo ">> PPA: is for Debian/Devuan/Ubuntu or derivatives!"
           exit
     esac        
 }
@@ -85,7 +85,7 @@ function main {
     apt install eggs
     eggs dad -d
     echo ">> PPA: finished"
-    read -rp ">> ADDAURA: you can remove it!"
+    read -rp ">> ADDAURA: you can remove it!\n"
 }
 
 main
