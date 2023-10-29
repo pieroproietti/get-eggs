@@ -6,8 +6,9 @@ function press_a_key_to_continue {
 }
 
 function is_arch {
-    RELEASE=$(lsb_release -is)
-    case $RELEASE in 
+
+. /etc/os-release    
+    case $ID in 
         Arch)
             echo ">> get-eggs: OK, is Arch"
             ;;

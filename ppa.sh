@@ -6,8 +6,10 @@ function press_a_key_to_continue {
 }
 
 function is_debian {
-    CODENAME=$(lsb_release -cs)
-    case $CODENAME in 
+
+. /etc/os-release
+
+    case $VERSION_CODENAME in 
         # Debian
         buster | bullseye | bookworm | trixie)
             echo ">> get-eggs, OK, is Debian or derivatives"
