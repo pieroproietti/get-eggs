@@ -10,17 +10,17 @@ function is_debian {
     case $CODENAME in 
         # Debian
         buster | bullseye | bookworm | trixie)
-            echo ">> PPA: OK, is Debian or derivatives"
+            echo ">> get-eggs, OK, is Debian or derivatives"
             ;;
 
         # Devuan
         chimaera | daedalus)
-            echo ">> PPA OK, is Devuan or derivatives"
+            echo ">> get-eggs OK, is Devuan or derivatives"
             ;;
 
         # Ubuntu
         bionic | focal | jammy | noble)
-            echo ">> PPA OK, is Ubuntu or derivatives"
+            echo ">> get-eggs OK, is Ubuntu or derivatives"
             ;;
 
         #
@@ -29,32 +29,32 @@ function is_debian {
 
         #elementary
         horus)
-            echo ">> PPA OK, is Elementary or derivatives"
+            echo ">> get-eggs OK, is Elementary or derivatives"
             ;;
 
         # LMDE
         elsie | faye)
-            echo ">> PPA OK, is LMDE or derivatives"
+            echo ">> get-eggs OK, is LMDE or derivatives"
             ;;
 
         # linuxmint
         vera | victoria)
-            echo ">> PPA OK, is Linuxmint or derivatives"
+            echo ">> get-eggs OK, is Linuxmint or derivatives"
             ;;
 
         # kali
         kali-rolling)
-            echo ">> PPA OK, is Kali or derivatives"
+            echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
         # netrunner
         desktop)
-            echo ">> PPA OK, is Kali or derivatives"
+            echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
 
         *)
-          echo ">> PPA: is for Debian/Devuan/Ubuntu or derivatives!"
+          echo ">> get-eggs: is for Debian/Devuan/Ubuntu or derivatives!"
           exit
     esac        
 }
@@ -63,7 +63,7 @@ function is_ppa {
     
     FILE=/etc/apt/sources.list.d/penguins-eggs-ppa.list
     if test -f "$FILE"; then
-        echo ">> PPA: penguins-eggs-ppa.list already present!"
+        echo ">> get-eggs: penguins-eggs-ppa.list already present!"
         exit
     fi
 }
@@ -74,7 +74,7 @@ function main {
     is_ppa
 
     echo ""
-    echo ">> PPA: add spare tools..."
+    echo ">> get-eggs: add spare tools..."
     echo ""
 
     apt update
@@ -84,8 +84,9 @@ function main {
     apt update
     apt install eggs
     eggs dad -d
-    echo ">> PPA: finished"
-    read -rp ">> ADDAURA: you can remove it!\n"
+    echo ">> get-eggs, finished!"
+    echo ">> you can remove it: rm get-eggs -rf"
+    read -rp ""
 }
 
 main

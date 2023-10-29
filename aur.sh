@@ -9,32 +9,32 @@ function is_arch {
     RELEASE=$(lsb_release -is)
     case $RELEASE in 
         Arch)
-            echo ">> ADDAURA: OK, is Arch"
+            echo ">> get-eggs: OK, is Arch"
             ;;
         ArcoLinux)
-            echo ">> ADDAURA: OK, is ArcoLinux"
+            echo ">> get-eggs: OK, is ArcoLinux"
             ;;
         blendOS)
-            echo ">> ADDAURA: OK, is blendOS"
+            echo ">> get-eggs: OK, is blendOS"
             ;;
         EndeavourOS)
-            echo ">> ADDAURA: OK, is EndeavourOS"
+            echo ">> get-eggs: OK, is EndeavourOS"
             ;;
         phyOS)
-            echo ">> ADDAURA: OK, is phyOS"
+            echo ">> get-eggs: OK, is phyOS"
             ;;
         RebornOS)
-            echo ">> ADDAURA: OK, is RebornOS"
+            echo ">> get-eggs: OK, is RebornOS"
             ;;
         *)
-          echo ">> ADDAURA: is for Arch!"
+          echo ">> get-eggs: is for Arch!"
           exit
     esac        
 }
 
 function is_aur {
     if grep -Fxq "[chaotic-aur]" /etc/pacman.conf; then
-        echo ">> ADDAURA: chaotic-aur already present!"
+        echo ">> get-eggs: chaotic-aur already present!"
         exit
     fi    
 }
@@ -44,7 +44,7 @@ function main {
     is_aur
 
     echo ""
-    echo ">> ADDAURA: add spare tools..."
+    echo ">> get-eggs: add spare tools..."
     echo ""
     pacman -Syu bash-completion \
                 dialog \
@@ -54,7 +54,7 @@ function main {
                 wget
 
     echo ""
-    echo ">> ADDAURA: add AUR repository..."
+    echo ">> get-eggs: add AUR repository..."
     echo ""
     echo 
     pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
@@ -64,12 +64,12 @@ function main {
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
     echo ""
-    echo ">> ADDAURA: Installing penguins-eggs..."
+    echo ">> get-eggs: Installing penguins-eggs..."
     echo ""
     pacman -Syu penguins-eggs
 
     echo ""
-    read -rp ">> ADDAURA: press a key to edit /etc/sudoers"
+    read -rp ">> get-eggs: press a key to edit /etc/sudoers"
     echo ""
     export EDITOR=nano
     visudo
@@ -77,8 +77,8 @@ function main {
     eggs dad -d
 
     clear
-    echo ">> ADDAURA: finished"
-    read -rp ">> ADDAURA: you can remove it!"
+    echo ">> get-eggs: finished"
+    read -rp ">> get-eggs: you can remove it!"
 }
 
 main
