@@ -47,6 +47,12 @@ function is_debian {
             echo ">> PPA OK, is Kali or derivatives"
             ;;
 
+        # netrunner
+        desktop)
+            echo ">> PPA OK, is Kali or derivatives"
+            ;;
+
+
         *)
           echo ">> PPA: is for Debian/Devuan/Ubuntu amd derivatives!"
           exit
