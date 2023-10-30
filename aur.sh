@@ -24,7 +24,7 @@ function is_arch {
         phyOS)
             echo ">> get-eggs: OK, is phyOS"
             ;;
-        RebornOS)
+        rebornos)
             echo ">> get-eggs: OK, is RebornOS"
             ;;
         *)
