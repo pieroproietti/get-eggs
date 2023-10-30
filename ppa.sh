@@ -79,12 +79,12 @@ function main {
     echo ">> get-eggs: add spare tools..."
     echo ""
 
-    apt update
-    apt install curl gpg
+    apt-get update --yes
+    apt-get install curl gpg --yes
     curl -fsSL "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | gpg --dearmor -o /usr/share/keyrings/penguins-eggs-ppa.gpg
     echo "deb [signed-by=/usr/share/keyrings/penguins-eggs-ppa.gpg] https://pieroproietti.github.io/penguins-eggs-ppa ./ " | tee /etc/apt/sources.list.d/penguins-eggs-ppa.list > /dev/null
-    apt update
-    apt install eggs
+    apt-get update --yes
+    apt-get install eggs --yes
     eggs dad -d
     echo ">> get-eggs, finished!"
     echo ">> you can remove it: rm get-eggs -rf"
