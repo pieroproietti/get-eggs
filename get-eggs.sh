@@ -1,21 +1,21 @@
 #!/bin/bash -e
 
-. /etc/os-release
+source /etc/os-release
 
 # Read $ID
 if [ "$ID" = "debian" ]; then
-    . ./ppa.sh
+    source ./ppa.sh
 elif [ "$ID" = "arch" ]; then
-    . ./aur.sh
+    source ./aur.sh
 fi
 
 # $ID changed, but $ID_LIKE
 if [ "$ID_LIKE" = "debian" ]; then
-    . ./ppa.sh
+    source ./ppa.sh
 elif [ "$ID_LIKE" = "ubuntu debian" ]; then
-    . ./ppa.sh
+    source ./ppa.sh
 elif [ "$ID_LIKE" = "archlinux" ]; then
-    . ./aur.sh
+    source ./aur.sh
 fi
 
 #
@@ -24,10 +24,11 @@ fi
 
 # elementary no need
 if [ "$ID" = "elementary" ]; then
-    . ./ppa.sh
-
+    source ./ppa.sh
 # neon no need too
 elif [ "$ID" = "neon" ]; then
-    . ./ppa.sh
-
+    source ./ppa.sh
 fi
+
+echo "ID: $ID"
+echo "ID_LIKE: $IDLIKE"
