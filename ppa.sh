@@ -7,7 +7,7 @@ function press_a_key_to_continue {
 
 function is_debian {
 
-    . /etc/os-release
+    source /etc/os-release
 
     case $VERSION_CODENAME in 
         # Debian

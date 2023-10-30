@@ -7,7 +7,7 @@ function press_a_key_to_continue {
 
 function is_arch {
 
-. /etc/os-release    
+source /etc/os-release    
     case $ID in 
         arch) # Arch 
             echo ">> get-eggs: OK, is Arch"
