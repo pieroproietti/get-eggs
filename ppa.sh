@@ -7,7 +7,7 @@ function press_a_key_to_continue {
 
 function is_debian {
 
-. /etc/os-release
+    . /etc/os-release
 
     case $VERSION_CODENAME in 
         # Debian
@@ -39,7 +39,7 @@ function is_debian {
             echo ">> get-eggs OK, is LMDE or derivatives"
             ;;
 
-        # linuxmint
+        # linuxmint / luberri
         vanessa | vera | victoria)
             echo ">> get-eggs OK, is Linuxmint or derivatives"
             ;;

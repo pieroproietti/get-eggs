@@ -12,15 +12,17 @@ fi
 # $ID changed, but $ID_LIKE
 if [ "$ID_LIKE" = "debian" ]; then
     . ./ppa.sh
+elif [ "$ID_LIKE" = "ubuntu debian" ]; then
+    . ./ppa.sh
 elif [ "$ID_LIKE" = "archlinux" ]; then
     . ./aur.sh
 fi
 
 #
-# $ID changed, ID_LIKE not set
+# ID_LIKE not set
 # 
 
-# elementary
+# elementary no need
 if [ "$ID" = "elementary" ]; then
     . ./ppa.sh
 
