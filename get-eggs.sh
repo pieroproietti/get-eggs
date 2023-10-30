@@ -31,4 +31,4 @@ elif [ "$ID" = "neon" ]; then
 fi
 
 echo "ID: $ID"
-echo "ID_LIKE: $IDLIKE"
+echo "ID_LIKE: $ID_LIKE"
