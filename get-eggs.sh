@@ -26,7 +26,7 @@ fi
 if [ "$ID" = "elementary" ]; then
     . ./ppa.sh
 
-# neon
+# neon no need too
 elif [ "$ID" = "neon" ]; then
     . ./ppa.sh
 

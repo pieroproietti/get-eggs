@@ -9,16 +9,16 @@ function is_arch {
 
 . /etc/os-release    
     case $ID in 
-        Arch)
+        arch) # Arch 
             echo ">> get-eggs: OK, is Arch"
             ;;
-        ArcoLinux)
+        arcolinux) # ArcoLinux
             echo ">> get-eggs: OK, is ArcoLinux"
             ;;
         blendOS)
             echo ">> get-eggs: OK, is blendOS"
             ;;
-        EndeavourOS)
+        endeavouros) # EndeavourOS)
             echo ">> get-eggs: OK, is EndeavourOS"
             ;;
         phyOS)
