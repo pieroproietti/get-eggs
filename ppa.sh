@@ -86,9 +86,11 @@ function main {
     apt-get update --yes
     apt-get install eggs --yes
     eggs dad -d
+
     echo ">> get-eggs, finished!"
     echo ">> you can remove it: rm get-eggs -rf"
     read -rp ""
+    clear
 }
 
 main

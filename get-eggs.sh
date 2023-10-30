@@ -29,6 +29,3 @@ if [ "$ID" = "elementary" ]; then
 elif [ "$ID" = "neon" ]; then
     source ./ppa.sh
 fi
-
-echo "ID: $ID"
-echo "ID_LIKE: $ID_LIKE"
