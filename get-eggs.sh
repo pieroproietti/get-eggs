@@ -14,7 +14,7 @@ if [ "$ID_LIKE" = "debian" ]; then
     source ./ppa.sh
 elif [ "$ID_LIKE" = "ubuntu debian" ]; then
     source ./ppa.sh
-elif [ "$ID_LIKE" = "archlinux" ]; then
+elif [ "$ID_LIKE" = "arch" ]; then
     source ./aur.sh
 fi
 
