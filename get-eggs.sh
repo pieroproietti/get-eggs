@@ -22,10 +22,7 @@ fi
 # ID_LIKE not set
 # 
 
-# elementary no need
-if [ "$ID" = "elementary" ]; then
-    source ./ppa.sh
-# neon no need too
-elif [ "$ID" = "neon" ]; then
-    source ./ppa.sh
+# blendos need
+if [ "$ID" = "blendos" ]; then
+    source ./aur.sh
 fi
