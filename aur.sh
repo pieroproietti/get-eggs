@@ -18,6 +18,9 @@ source /etc/os-release
         blendos) # BlendOS
             echo ">> get-eggs: OK, is BlendOS"
             ;;
+        crystal) # Crystal
+            echo ">> get-eggs: OK, is Crystal"
+            ;;
         endeavouros) # EndeavourOS)
             echo ">> get-eggs: OK, is EndeavourOS"
             ;;
