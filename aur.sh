@@ -15,14 +15,11 @@ source /etc/os-release
         arcolinux) # ArcoLinux
             echo ">> get-eggs: OK, is ArcoLinux"
             ;;
-        blendOS)
+        blendos)
             echo ">> get-eggs: OK, is blendOS"
             ;;
         endeavouros) # EndeavourOS)
             echo ">> get-eggs: OK, is EndeavourOS"
-            ;;
-        phyOS)
-            echo ">> get-eggs: OK, is phyOS"
             ;;
         rebornos)
             echo ">> get-eggs: OK, is RebornOS"
