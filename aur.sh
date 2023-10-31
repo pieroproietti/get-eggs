@@ -21,11 +21,15 @@ source /etc/os-release
         endeavouros) # EndeavourOS)
             echo ">> get-eggs: OK, is EndeavourOS"
             ;;
+        garuda) # Garuda
+            echo ">> get-eggs: OK, is Garuda"
+            ;;
+        
         rebornos)
             echo ">> get-eggs: OK, is RebornOS"
             ;;
         *)
-          echo ">> get-eggs: is for Arch!"
+          echo ">> AUR: is for Arch and derivatives"
           exit
     esac        
 }

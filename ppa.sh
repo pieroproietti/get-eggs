@@ -56,7 +56,7 @@ function is_debian {
 
 
         *)
-          echo ">> get-eggs: is for Debian/Devuan/Ubuntu or derivatives!"
+          echo ">> PPA: is for Debian/Devuan/Ubuntu or derivatives!"
           exit
     esac        
 }
