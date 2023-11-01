@@ -1,10 +1,10 @@
-# How is build a naked system
+# How to build a naked (CLI) system
 
 We are going to describe how to go from a minimal standard installation to a complete remasterable system using get-eggs.
 
 This procedure work on Debian (buster, bulleye, bookworm), Devuan (chimaera and daedalus), Ubuntu (bionic, focal and jammy) and Arch rolling.
 
-## Arch
+## Install a basic CLI Arch
 I started with latest version of archiso: `archlinux-2023.09.01-x86_64.iso`.
 
 Then, used `archinstall` to get a minimal installation. On `Disk configuration` choose `Use a best-effort deault configuration layot`, then `btrfs` or `ext4`, as you prefer.
@@ -15,7 +15,7 @@ At this point, we MUST configure network, I just choose the most basic: `Copy IS
 
 Finally select install and wait it finish. Archinstall will propose you to chroot to continue configuration, answer no and reboot.
 
-## Debian/Devuan/Ubuntu
+## ## Install a basic CLI Debian/Devuan/Ubuntu
 On Debian and Devuan we start with a common netinst, without install nothing except `standard system utilies`
 
 ![standard system utilies](./standard-system-utilies.png)
@@ -36,7 +36,7 @@ On Ubuntu, we install with the server edition, again without install nothing exc
 
 After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
-## Get and run get-eggs (all)
+## Get and run get-eggs
 
 * `git clone https://github.com/pieroproietti/get-eggs`
 * `cd get-eggs`
