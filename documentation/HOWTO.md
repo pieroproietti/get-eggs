@@ -36,13 +36,13 @@ On Ubuntu, we install with the server edition, again without install nothing exc
 
 After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
-# Get and run get-eggs (all)
+## Get and run get-eggs (all)
 
 * `git clone https://github.com/pieroproietti/get-eggs`
 * `cd get-eggs`
 * `sudo ./get-eggs.sh`
 
-# That will happen
+## That will happen
 eggs will be installed and configured properly for the chosen distribution.
 
 ## Arch

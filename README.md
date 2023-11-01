@@ -2,7 +2,7 @@
 
 **get-eggs**: add penguins-eggs and configure it on your Arch, Debian, Devuan or Ubuntu or derivatives.
 
-On Arch, it will add AUR repository - from that the original [name](./documentation/NAMING.md) addaura - on Debian famility, it will add a PPA for penguins-eggs.
+On Arch, it will add AUR repository - from that the original name [addaura](./documentation/NAMING.md) - on Debian famility, it will add a PPA for penguins-eggs.
 
 To get a complete customized distro like colibri, starting from an original ISO, read [HOWTO](./documentation/HOWTO.md).
 
