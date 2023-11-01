@@ -3,18 +3,9 @@
 source /etc/os-release
 
 # Read $ID
-if [ "$ID" = "debian" ]; then
+if [ "$ID" = "debian" ] || [ "$ID_LIKE" = "debian" ] || [ "$ID_LIKE" = "ubuntu debian" ]; then
     source ./ppa.sh
-elif [ "$ID" = "arch" ]; then
-    source ./aur.sh
-fi
-
-# $ID changed, but $ID_LIKE
-if [ "$ID_LIKE" = "debian" ]; then
-    source ./ppa.sh
-elif [ "$ID_LIKE" = "ubuntu debian" ]; then
-    source ./ppa.sh
-elif [ "$ID_LIKE" = "arch" ]; then
+elif [ "$ID" = "arch" ] || [ "$ID_LIKE" = "arch" ]; then
     source ./aur.sh
 fi
 
