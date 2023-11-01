@@ -1,8 +1,8 @@
-# How to get a colibri
+# How is build a naked system
 
 We are going to describe how to go from a minimal standard installation to a complete remasterable system using get-eggs.
 
- This procedure work on Debian (buster, bulleye, bookworm), Devuan (chimaera and daedalus), Ubuntu (bionic, focal and jammy) and Arch rolling.
+This procedure work on Debian (buster, bulleye, bookworm), Devuan (chimaera and daedalus), Ubuntu (bionic, focal and jammy) and Arch rolling.
 
 ## Arch
 I started with latest version of archiso: `archlinux-2023.09.01-x86_64.iso`.
