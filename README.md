@@ -1,6 +1,6 @@
 # get-eggs
 
-get-eggs: add penguins-eggs to your Arch, Debian, Devuan or Ubuntu or derivatives.
+**get-eggs**: add penguins-eggs and configure it on your Arch, Debian, Devuan or Ubuntu or derivatives.
 
 On Arch, it will add AUR repository - from that the original [name](./documentation/NAMING.md) addaura - on Debian famility, it will add a PPA for penguins-eggs.
 
