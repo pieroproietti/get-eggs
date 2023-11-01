@@ -1,6 +1,6 @@
 # How to get a colibri
 
-We are going to describe how to go from a minimal standard installation to a complete remasterable system using addaura.
+We are going to describe how to go from a minimal standard installation to a complete remasterable system using get-eggs.
 
  This procedure work on Debian (buster, bulleye, bookworm), Devuan (chimaera and daedalus), Ubuntu (bionic, focal and jammy) and Arch rolling.
 
@@ -9,7 +9,7 @@ I started with latest version of archiso: `archlinux-2023.09.01-x86_64.iso`.
 
 Then, used `archinstall` to get a minimal installation. On `Disk configuration` choose `Use a best-effort deault configuration layot`, then `btrfs` or `ext4`, as you prefer.
 
-Among the packages added: `git`, `lsb-release`, others packages will be installed later by `addaur`.
+Among the packages added: `git`, `lsb-release`, others packages will be installed later by `get-eggs`.
 
 At this point, we MUST configure network, I just choose the most basic: `Copy ISO configuration to installation`.
 
@@ -36,22 +36,22 @@ On Ubuntu, we install with the server edition, again without install nothing exc
 
 After reboot, we need just to install `git` to be ready: `sudo apt install git`.
 
-# Get and run addaura (all)
+# Get and run get-eggs (all)
 
-* `git clone https://github.com/pieroproietti/addaura`
-* `cd addaura`
-* `sudo ./addaura.sh`
+* `git clone https://github.com/pieroproietti/get-eggs`
+* `cd get-eggs`
+* `sudo ./get-eggs.sh`
 
 # That will happen
 eggs will be installed and configured properly for the chosen distribution.
 
 ## Arch
-`addaura.sh` will install few packages `bash-completion`, `dialog`, `man-db`, `nano`, `openssh` and `wget` and will add [AUR](https://aur.archlinux.org/)  repository to pacman.conf.
+`get-eggs.sh` will install few packages `bash-completion`, `dialog`, `man-db`, `nano`, `openssh` and `wget` and will add [AUR](https://aur.archlinux.org/)  repository to pacman.conf.
 
-At last `addaura.sh` will install penguins-eggs.
+At last `get-eggs.sh` will install penguins-eggs.
 
 ## Debian/Devuan and Ubuntu
-`addaura.sh` will install new `ppa` for `penguins-eggs`, then will install eggs and its dependencies.
+`get-eggs.sh` will install new `ppa` for `penguins-eggs`, then will install eggs and its dependencies.
 
 # Get wardrobe and wear a costume (all)
 Once eggs was installed, I proceeded to load the wardrobe and "dress" the system with the colibri costume.
