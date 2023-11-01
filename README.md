@@ -13,4 +13,7 @@ To get a complete customized distro like colibri, starting from an original ISO,
 * `sudo ./get-eggs`
 
 # Fork it!
-This is a short, simple scripts, fork it and adapt you your need.
+This is a short and simple script, you are encouraged to fork the code and adapt it to your needs.
+
+
+
