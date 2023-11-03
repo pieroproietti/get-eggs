@@ -21,7 +21,7 @@ function is_debian {
             ;;
 
         # Ubuntu
-        bionic | focal | jammy | noble)
+        bionic | focal | jammy | mantic | noble)
             echo ">> get-eggs OK, is Ubuntu or derivatives"
             ;;
 
