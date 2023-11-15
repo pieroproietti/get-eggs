@@ -81,7 +81,6 @@ function main {
 
     eggs dad -d
 
-    cd ..
     echo ">> get-eggs: finished! You can remove it"
 }
 

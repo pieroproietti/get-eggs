@@ -87,7 +87,6 @@ function main {
     apt-get install eggs --yes
     eggs dad -d
 
-    cd ..
     echo ">> get-eggs: finished! You can remove it"
 }
 
