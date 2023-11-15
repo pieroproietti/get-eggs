@@ -81,9 +81,8 @@ function main {
 
     eggs dad -d
 
-    echo ">> get-eggs: finished"
-    read -rp ">> get-eggs: you can remove it!"
-    clear
+    cd ..
+    echo ">> get-eggs: finished! You can remove it"
 }
 
 main
