@@ -20,6 +20,8 @@ fi
 # blendos need
 if [ "$ID" = "blendos" ]; then
     source ./aur.sh
+elif [ "$ID" = "blackarch" ]; then
+    source ./aur.sh
 elif [ "$ID" = "crystal" ]; then
     source ./aur.sh
 fi

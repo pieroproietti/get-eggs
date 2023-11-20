@@ -15,6 +15,9 @@ source /etc/os-release
         arcolinux) # ArcoLinux
             echo ">> get-eggs: OK, is ArcoLinux"
             ;;
+        blackarch) # BlackArch
+            echo ">> get-eggs: OK, is BlackArch"
+            ;;
         blendos) # BlendOS
             echo ">> get-eggs: OK, is BlendOS"
             ;;
