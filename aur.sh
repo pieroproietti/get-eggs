@@ -54,7 +54,7 @@ function main {
     echo ""
     echo ">> get-eggs: add spare tools..."
     echo ""
-    pacman -Sy  bash-completion \
+    pacman -S  bash-completion \
                 dialog \
                 man-db \
                 nano \
@@ -74,7 +74,7 @@ function main {
     echo ""
     echo ">> get-eggs: Installing penguins-eggs..."
     echo ""
-    pacman -Sy penguins-eggs
+    pacman -S penguins-eggs
 
     echo ""
     read -rp ">> get-eggs: press a key to edit /etc/sudoers"
