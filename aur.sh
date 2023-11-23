@@ -74,7 +74,7 @@ function main {
     echo ""
     echo ">> get-eggs: Installing penguins-eggs..."
     echo ""
-    pacman -S penguins-eggs
+    pacman -Sy penguins-eggs
 
     echo ""
     read -rp ">> get-eggs: press a key to edit /etc/sudoers"
