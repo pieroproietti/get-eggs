@@ -54,6 +54,11 @@ function is_debian {
             echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
+        # parrot
+        ara)
+            echo ">> get-eggs OK, is Parrot or derivatives"
+            ;;
+
 
         *)
           echo ">> PPA: is for Debian/Devuan/Ubuntu or derivatives!"
