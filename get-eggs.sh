@@ -18,7 +18,9 @@ fi
 # 
 
 # blendos need
-if [ "$ID" = "blendos" ]; then
+if [ "$ID" = "artix" ]; then
+    source ./aur.sh
+elif [ "$ID" = "blendos" ]; then
     source ./aur.sh
 elif [ "$ID" = "blackarch" ]; then
     source ./aur.sh
