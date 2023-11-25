@@ -16,7 +16,8 @@ source /etc/os-release
             echo ">> get-eggs: OK, is ArcoLinux"
             ;;
         artix) # Artix
-            echo ">> get-eggs: OK, is Artix"
+            echo ">> get-eggs: KO, Artix is not compatible with penguins-eggs!"
+            exit
             ;;
         blackarch) # BlackArch
             echo ">> get-eggs: OK, is BlackArch"
