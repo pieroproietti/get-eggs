@@ -15,6 +15,9 @@ source /etc/os-release
         arcolinux) # ArcoLinux
             echo ">> get-eggs: OK, is ArcoLinux"
             ;;
+        artix) # Artix
+            echo ">> get-eggs: OK, is Artix"
+            ;;
         blackarch) # BlackArch
             echo ">> get-eggs: OK, is BlackArch"
             ;;
