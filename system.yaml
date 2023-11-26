@@ -1,0 +1,23 @@
+# /system.yaml
+
+ repo: 'https://pkg-repo.blendos.co/'
+
+ impl: 'https://github.com/blend-os/tracks/raw/main'
+
+ track: 'blendos-base' # or 'plasma' or 'xfce' or 'mate'
+
+                 # GNOME isn't recommended
+                 # at the moment as it is
+                 # known to be be buggy.
+
+ packages:
+     - 'penguins-eggs'
+ #   - 'firefox'
+ #   - 'nvidia-dkms' if you're using an NVIDIA GPU
+
+services:
+    - 'sshd'
+
+package-repos:
+    - name: 'chaotic-aur'
+      repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'

@@ -15,5 +15,9 @@ To get a complete customized distro like colibri, starting from an original ISO,
 # Fork it!
 This is a short and simple script, you are encouraged to fork the code and adapt it to your needs.
 
+# BlendOS
 
+File system.yaml must to be copied on /
+
+sudo pacman -Sy akshara; sudo akshara update
 
