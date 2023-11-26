@@ -4,7 +4,7 @@
 
  impl: 'https://github.com/blend-os/tracks/raw/main'
 
- track: 'blendos-base' # cinnamon, gnome, lxqt, mate, plasma, xfce
+ track: 'plasma' # cinnamon, gnome, lxqt, mate, plasma, xfce, 'blendos-base'
  
  packages:
      - 'penguins-eggs'
