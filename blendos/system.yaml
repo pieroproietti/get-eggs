@@ -1,15 +1,15 @@
 # /system.yaml
 
- repo: 'https://pkg-repo.blendos.co/'
+repo: 'https://pkg-repo.blendos.co/'
 
- impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/blend-os/tracks/raw/main'
 
- track: 'plasma' # cinnamon, gnome, lxqt, mate, plasma, xfce, 'blendos-base'
+track: blendos-base # plasma, cinnamon, gnome, lxqt, mate, plasma, xfce...
  
- packages:
-     - 'penguins-eggs'
- #   - 'firefox'
- #   - 'nvidia-dkms' if you're using an NVIDIA GPU
+packages:
+    - 'penguins-eggs'
+#   - 'firefox'
+#   - 'nvidia-dkms' if you're using an NVIDIA GPU
 
 services:
     - 'sshd'
