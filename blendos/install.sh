@@ -1,6 +1,6 @@
 function is_breakfast {
     if grep -Fxq "[is_breakfast]" /etc/pacman.conf; then
-        echo ">> blendos-install: breakfast already present!"
+        echo ">> blendos/install: breakfast already present!"
         exit
     fi    
 }

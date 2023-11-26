@@ -4,12 +4,8 @@
 
  impl: 'https://github.com/blend-os/tracks/raw/main'
 
- track: 'blendos-base' # or 'plasma' or 'xfce' or 'mate'
-
-                 # GNOME isn't recommended
-                 # at the moment as it is
-                 # known to be be buggy.
-
+ track: 'blendos-base' # cinnamon, gnome, lxqt, mate, plasma, xfce
+ 
  packages:
      - 'penguins-eggs'
  #   - 'firefox'
