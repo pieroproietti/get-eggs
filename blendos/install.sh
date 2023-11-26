@@ -15,7 +15,7 @@ function main {
    echo "SigLevel = Never" >> /etc/pacman.conf
    echo "Server = https://pkg-repo.blendos.co" >> /etc/pacman.conf
    pacman -Sy akshara
-   akshara update
+   # akshara update
 }
 
 main
