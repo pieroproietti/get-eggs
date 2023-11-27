@@ -1,21 +1,48 @@
+#!/bin/env bash
+
+function is_arch {
+    if [ "$ID" = "arch" ] || [ "$ID_LIKE" = "arch" ]; then
+        echo "Arch"
+    else
+        clear
+        echo "BlendOS work just on arch..."
+        echo "Aborting!"
+        exit
+    fi
+}
+
+
+
 function is_breakfast {
-    if grep -Fxq "[is_breakfast]" /etc/pacman.conf; then
+    if grep -Fxq "[breakfast]" /etc/pacman.conf; then
         echo ">> blendos/install: breakfast already present!"
+        echo "               try: pacman -Sy akshara"
         exit
     fi    
 }
 
 
 function main {
-   cp system.yaml /
+    source /etc/os-release
 
-   is_breakfast
+    # check arch
+    is_arch
 
-   echo "[breakfast]" >> /etc/pacman.conf
-   echo "SigLevel = Never" >> /etc/pacman.conf
-   echo "Server = https://pkg-repo.blendos.co" >> /etc/pacman.conf
+    # copy system /
+    cp system.yaml /
+
+    # check breakfast already in pacman.conf
+    is_breakfast
+
+    {
+        echo "[breakfast]"
+        echo "SigLevel = Never"
+        echo "Server = https://pkg-repo.blendos.co"
+    } >> /etc/pacman.conf
    pacman -Sy akshara
    # akshara update
 }
 
 main
+
+cat README.md
