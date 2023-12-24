@@ -15,3 +15,5 @@ To get a complete customized distro like colibri, starting from an original ISO,
 # Fork it!
 This is a short and simple script, you are encouraged to fork the code and adapt it to your needs.
 
+# Note
+To create a naked Ubuntu I start from the server version, install it normally and after I remove the packages cloud-install and needrestart.
