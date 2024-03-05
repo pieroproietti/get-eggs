@@ -40,7 +40,7 @@ function is_debian {
             ;;
 
         # linuxmint / luberri
-        vanessa | vera | victoria)
+        vanessa | vera | victoria | virginia)
             echo ">> get-eggs OK, is Linuxmint or derivatives"
             ;;
 
