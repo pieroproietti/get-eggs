@@ -36,12 +36,15 @@ function is_debian {
             echo "sudo dpkg -i penguins-eggs-10.0.x-bionic-x.deb"
             exit
             ;;
+
+
         #
         # derivatives
         #
 
-        #elementary
-        horus)
+        #elementary horus derivata da Ubuntu focal
+        horus) 
+            NODESOURCE=true
             echo ">> get-eggs OK, is Elementary or derivatives"
             ;;
 
@@ -50,7 +53,7 @@ function is_debian {
             echo ">> get-eggs OK, is LMDE or derivatives"
             ;;
 
-        # linuxmint / luberri
+        # linuxmint / luberri derivata da Ubuntu jammy
         vanessa | vera | victoria | virginia)
             NODESOURCE=true
             echo ">> get-eggs OK, is Linuxmint or derivatives"
@@ -61,12 +64,12 @@ function is_debian {
             echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
-        # netrunner
+        # netrunner derivata da Debian stable
         desktop)
             echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
-        # parrot
+        # parrot derivata da Debian bookworm
         ara)
             echo ">> get-eggs OK, is Parrot or derivatives"
             ;;
@@ -82,8 +85,13 @@ function is_ppa {
     
     FILE=/etc/apt/sources.list.d/penguins-eggs-ppa.list
     if test -f "$FILE"; then
-        echo ">> get-eggs: penguins-eggs-ppa.list already present!"
-        #exit
+        echo ">> get-eggs: "
+        echo "   penguins-eggs-ppa.list repository already present!"
+        echo "   To install penguins-eggs, copy and past the following commands"
+        echo ""
+        echo "sudo apt update"
+        echo "sudo apt install penguins-eggs"
+        exit
     fi
 }
 
@@ -92,7 +100,7 @@ function nodesource {
     if test -f "$FILE"; then
         echo ">> get-eggs: nodesource.list already present!"
     else
-        curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
     fi
 }
 
@@ -101,7 +109,7 @@ function main {
     is_ppa
 
     echo ""
-    echo ">> get-eggs: add spare tools..."
+    echo ">> get-eggs: adding spare tools..."
     echo ""
 
     apt-get update --yes
