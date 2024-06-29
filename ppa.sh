@@ -21,7 +21,20 @@ function is_debian {
             ;;
 
         bionic)
-            echp ">> Install node16 from nodesource, then install penguins-eggs bionic"
+            echo "On Ubuntu bionic and derivatives, use manual procedure:"
+            echo ""
+            echo "- Install node16 from nodesource repository."
+            echo "  copy and past the following commands"
+            echo ""
+            echo "sudo apt-get install -y curl"
+            echo "curl -fsSL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh"
+            echo "sudo -E bash nodesource_setup.sh"
+            echo ""
+            echo " - Download penguins-eggs-10.0.x-bionic-x.deb from sourceforge"
+            echo "  copy and past the following command"
+            echo ""
+            echo "sudo dpkg -i penguins-eggs-10.0.x-bionic-x.deb"
+            exit
             ;;
         #
         # derivatives
