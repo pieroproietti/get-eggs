@@ -8,7 +8,7 @@ On Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, get-eggs
 will add [nodesource](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18.
 
 
-To get a complete customized distro like colibri, starting from an original ISO, read [HOWTO](./documentation/HOWTO.md).
+To get a naked distro or a complete customized distro like colibri, starting from an original ISO, there is an [HOWTO](./documentation/HOWTO.md).
 
 # USAGE
 
