@@ -5,7 +5,7 @@
 On Arch, it will add AUR repository - from that the original name [addaura](./documentation/NAMING.md) - on Debian famility, it will add a PPA for penguins-eggs.
 
 On Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, get-eggs
-will add [nodesource](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18.
+will add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18.
 
 
 To get a naked distro or a complete customized distro like colibri, starting from an original ISO, there is an [HOWTO](./documentation/HOWTO.md).
