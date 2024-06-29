@@ -15,7 +15,7 @@ At this point, we MUST configure network, I just choose the most basic: `Copy IS
 
 Finally select install and wait it finish. Archinstall will propose you to chroot to continue configuration, answer no and reboot.
 
-## ## Install a basic CLI Debian/Devuan/Ubuntu
+## Install a basic CLI Debian/Devuan/Ubuntu
 On Debian and Devuan we start with a common netinst, without install nothing except `standard system utilies`
 
 ![standard system utilies](./standard-system-utilies.png)
