@@ -6,8 +6,7 @@ function press_a_key_to_continue {
 }
 
 function is_debian {
-    NEED18=false
-    NEED16=false
+    NODESOURCE=false
     source /etc/os-release
 
     case $VERSION_CODENAME in 
@@ -17,16 +16,13 @@ function is_debian {
             ;;
 
         buster | bullseye | chimaera | focal | jammy)
-            NEED18=true
+            NODESOURCE=true
             echo ">> get-eggs, OK, is Debian or derivatives"
             ;;
 
-        # Debian/Devuan/Ubuntu
         bionic)
-            NEED16=true
-            echo ">> get-eggs, OK, is Ubuntu or derivatives"
+            echp ">> Install node16 from nodesource, then install penguins-eggs bionic"
             ;;
-
         #
         # derivatives
         #
@@ -43,7 +39,7 @@ function is_debian {
 
         # linuxmint / luberri
         vanessa | vera | victoria | virginia)
-            NEED18=true
+            NODESOURCE=true
             echo ">> get-eggs OK, is Linuxmint or derivatives"
             ;;
 
@@ -74,10 +70,18 @@ function is_ppa {
     FILE=/etc/apt/sources.list.d/penguins-eggs-ppa.list
     if test -f "$FILE"; then
         echo ">> get-eggs: penguins-eggs-ppa.list already present!"
-        exit
+        #exit
     fi
 }
 
+function nodesource {
+    FILE=/etc/apt/sources.list.d/nodesource.list
+    if test -f "$FILE"; then
+        echo ">> get-eggs: nodesource.list already present!"
+    else
+        curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    fi
+}
 
 function main {
     is_debian
@@ -90,16 +94,10 @@ function main {
     apt-get update --yes
     apt-get install curl gpg --yes
 
-    # Add nodejs 16.x repo
-    if [ "$NEED16" = true ]; then
-        curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-    fi    
-
     # Add nodejs 18.x repo
-    if [ "$NEED18" = true ]; then
-        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-    fi
-
+    if [ "$NODESOURCE" = true ]; then
+        nodesource
+    fi    
 
     curl -fsSL "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | gpg --dearmor -o /usr/share/keyrings/penguins-eggs-ppa.gpg
     echo "deb [signed-by=/usr/share/keyrings/penguins-eggs-ppa.gpg] https://pieroproietti.github.io/penguins-eggs-ppa ./ " | tee /etc/apt/sources.list.d/penguins-eggs-ppa.list > /dev/null
