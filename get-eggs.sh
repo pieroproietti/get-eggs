@@ -5,6 +5,7 @@ source /etc/os-release
 # Read $ID
 if  [ "$ID" = "debian" ] || 
     [ "$ID" = "ubuntu" ] || 
+    [ "$ID" = "linuxmint" ] || 
     [ "$ID_LIKE" = "debian" ] || 
     [ "$ID_LIKE" = "ubuntu" ] || 
     [ "$ID_LIKE" = "ubuntu debian" ]; then
