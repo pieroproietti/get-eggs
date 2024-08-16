@@ -12,6 +12,8 @@ if  [ "$ID" = "debian" ] ||
     source ./ppa.sh
 elif [ "$ID" = "arch" ] || [ "$ID_LIKE" = "arch" ]; then
     source ./aur.sh
+elif [ "$ID" = "alpine" ] || [ "$ID_LIKE" = "alpine" ]; then  
+    source ./alpine.sh
 fi
 
 #
