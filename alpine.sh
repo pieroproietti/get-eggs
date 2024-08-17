@@ -8,7 +8,7 @@ function press_a_key_to_continue {
 
 function main {
     echo ""
-    echo ">> get-eggs: will install penguins-eggs
+    echo ">> get-eggs: will install penguins-eggs" 
     echo "             piero.proietti@gmail.com-66b8815d.rsa.pub"
     echo ""
     press_a_key_to_continue
@@ -37,6 +37,11 @@ function main {
     echo ">> get-eggs: finished! You can remove it"
     echo ">> chsh -s /bin/bash"
 }
+
+
+####
+# start
+###
 
 if command -v doas >/dev/null 2>&1; then
     SUDO='doas'
