@@ -5,12 +5,11 @@ function press_a_key_to_continue {
    read -rp ">> Press enter to continue or CTRL-C to abort."
 }
 
-
 function main {
     clear
     echo ""
     echo ">> get-eggs: will install penguins-eggs" 
-    echo "             piero.proietti@gmail.com-66b8815d.rsa.pub"
+    echo "public key: piero.proietti@gmail.com-66b8815d.rsa.pub will installed"
     echo ""
     press_a_key_to_continue
 
@@ -36,7 +35,7 @@ function main {
     apk add penguins-eggs*
 
     echo ">> get-eggs: finished! You can remove it"
-    echo ">> chsh -s /bin/bash"
+    echo ">> type \"chsh -s /bin/bash\", then \"reboot\""
 }
 
 
