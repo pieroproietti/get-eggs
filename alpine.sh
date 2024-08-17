@@ -14,8 +14,8 @@ function main {
     if [ ! -e /usr/bin/sudo ]; then
         ln -s /usr/bin/doas /usr/bin/sudo
     fi
-    echo "fuse" | tee /etc/modules-load.d/fuse.conf
     ln -s /usr/bin/doas /usr/bin/sudo
+    # enable fuse
     if [ ! -e /etc/modules-load.d/fuse.conf ]; then
         echo "fuse" | tee /etc/modules-load.d/fuse.conf
     fi
