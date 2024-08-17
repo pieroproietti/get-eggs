@@ -11,7 +11,9 @@ function main {
     echo ">> get-eggs: piero.proietti@gmail.com-66b8815d.rsa.pub"
     echo ""
     apk add shadow fuse lsb-release
-    ln -s /usr/bin/doas /usr/bin/sudo
+    if [ ! -e /usr/bin/sudo ]; then
+        ln -s /usr/bin/doas /usr/bin/sudo
+    fi
     echo "fuse" | tee /etc/modules-load.d/fuse.conf
     ln -s /usr/bin/doas /usr/bin/sudo
     echo "fuse" | tee /etc/modules-load.d/fuse.conf
