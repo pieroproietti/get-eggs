@@ -21,7 +21,6 @@ function main {
     if [ ! -e /etc/modules-load.d/fuse.conf ]; then
         echo "fuse" | tee /etc/modules-load.d/fuse.conf
     fi
-    chsh -s /bin/bash
 
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/x86_64/
@@ -31,7 +30,9 @@ function main {
     wget -O penguins-eggs-doc-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-doc-10.0.27-r1.apk/download
     apk add penguins-eggs*
 
+    chsh -s /bin/bash
     echo ">> get-eggs: finished! You can remove it"
+
 }
 
 if command -v doas >/dev/null 2>&1; then
