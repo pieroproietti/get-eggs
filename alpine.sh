@@ -10,6 +10,13 @@ function main {
     echo ""
     echo ">> get-eggs: piero.proietti@gmail.com-66b8815d.rsa.pub"
     echo ""
+    apk add shadow fuse lsb-release
+    ln -s /usr/bin/doas /usr/bin/sudo
+    echo "fuse" | tee /etc/modules-load.d/fuse.conf
+    ln -s /usr/bin/doas /usr/bin/sudo
+    echo "fuse" | tee /etc/modules-load.d/fuse.conf
+    chsh -s /bin/bash
+
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/x86_64/
     cd /tmp/"$DOAS_USER"/packages/alpine/x86_64/
@@ -17,9 +24,6 @@ function main {
     wget -O penguins-eggs-bash-completion-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-bash-completion-10.0.27-r1.apk/download
     wget -O penguins-eggs-doc-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-doc-10.0.27-r1.apk/download
     apk add penguins-eggs*
-    apk add shadow fuse
-    ln -s /usr/bin/doas /usr/bin/sudo
-    echo "fuse" | tee /etc/modules-load.d/fuse.conf
 
     echo ">> get-eggs: finished! You can remove it"
 }
