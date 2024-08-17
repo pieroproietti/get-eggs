@@ -30,7 +30,6 @@ function main {
     wget -O penguins-eggs-doc-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-doc-10.0.27-r1.apk/download
     apk add penguins-eggs*
 
-    chsh -s /bin/bash
     echo ">> get-eggs: finished! You can remove it"
 
 }
