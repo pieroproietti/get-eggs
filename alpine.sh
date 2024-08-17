@@ -7,6 +7,7 @@ function press_a_key_to_continue {
 
 
 function main {
+    clear
     echo ""
     echo ">> get-eggs: will install penguins-eggs" 
     echo "             piero.proietti@gmail.com-66b8815d.rsa.pub"
