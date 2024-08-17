@@ -8,8 +8,12 @@ function press_a_key_to_continue {
 
 function main {
     echo ""
-    echo ">> get-eggs: piero.proietti@gmail.com-66b8815d.rsa.pub"
+    echo ">> get-eggs: will install penguins-eggs
+    echo "             piero.proietti@gmail.com-66b8815d.rsa.pub"
     echo ""
+    press_a_key_to_continue
+
+    # prerequisites
     apk add shadow fuse lsb-release
 
     # enable sudo
@@ -31,7 +35,7 @@ function main {
     apk add penguins-eggs*
 
     echo ">> get-eggs: finished! You can remove it"
-
+    echo ">> chsh -s /bin/bash"
 }
 
 if command -v doas >/dev/null 2>&1; then
