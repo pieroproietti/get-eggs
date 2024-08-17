@@ -16,7 +16,9 @@ function main {
     fi
     echo "fuse" | tee /etc/modules-load.d/fuse.conf
     ln -s /usr/bin/doas /usr/bin/sudo
-    echo "fuse" | tee /etc/modules-load.d/fuse.conf
+    if [ ! -e /etc/modules-load.d/fuse.conf ]; then
+        echo "fuse" | tee /etc/modules-load.d/fuse.conf
+    fi
     chsh -s /bin/bash
 
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
