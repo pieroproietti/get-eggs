@@ -17,7 +17,7 @@ function main {
     wget -O penguins-eggs-bash-completion-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-bash-completion-10.0.27-r1.apk/download
     wget -O penguins-eggs-doc-10.0.27-r1.apk https://sourceforge.net/projects/penguins-eggs/files/alpine/x86_64/penguins-eggs-doc-10.0.27-r1.apk/download
     apk add penguins-eggs*
-    apk add util-linux
+    apk add shadow fuse
     ln -s /usr/bin/doas /usr/bin/sudo
     echo "fuse" | tee /etc/modules-load.d/fuse.conf
 
@@ -25,9 +25,9 @@ function main {
 }
 
 if command -v doas >/dev/null 2>&1; then
-    SUDO='sudo'
-else
     SUDO='doas'
+else
+    SUDO='sudo'
 fi
 
 main
