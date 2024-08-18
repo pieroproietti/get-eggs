@@ -35,9 +35,9 @@ function main {
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
     cd /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
-    wget -O penguins-eggs-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-"$VERSION".apk/download
-    wget -O penguins-eggs-bash-completion-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-bash-completion-"$VERSION".apk/download
-    wget -O penguins-eggs-doc-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-doc-"$VERSION".apk/download
+    echo wget -O penguins-eggs-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-"$VERSION".apk/download
+    echo wget -O penguins-eggs-bash-completion-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-bash-completion-"$VERSION".apk/download
+    echo wget -O penguins-eggs-doc-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-doc-"$VERSION".apk/download
     apk add penguins-eggs*
 
     echo ">> get-eggs: finished! You can remove it"
