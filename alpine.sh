@@ -28,16 +28,16 @@ function main {
     arch=$(uname -m)
     if [ "$arch" = "x86_64" ]; then
         ARCH="x86_64"
-    elif [ "$arch" = "i86" ]; then
+    elif [ "$arch" = "i686" ]; then
         ARCH="x86"
     fi
     VERSION="10.0.28-r1"
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
     cd /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
-    echo wget -O penguins-eggs-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-"$VERSION".apk/download
-    echo wget -O penguins-eggs-bash-completion-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-bash-completion-"$VERSION".apk/download
-    echo wget -O penguins-eggs-doc-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-doc-"$VERSION".apk/download
+    wget -O penguins-eggs-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-"$VERSION".apk/download
+    wget -O penguins-eggs-bash-completion-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-bash-completion-"$VERSION".apk/download
+    wget -O penguins-eggs-doc-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-doc-"$VERSION".apk/download
     apk add penguins-eggs*
 
     echo ">> get-eggs: finished! You can remove it"
