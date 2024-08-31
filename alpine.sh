@@ -31,7 +31,7 @@ function main {
     elif [ "$arch" = "i686" ]; then
         ARCH="x86"
     fi
-    VERSION="10.0.33-r0"
+    VERSION="10.0.34-r0"
     cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
     cd /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
