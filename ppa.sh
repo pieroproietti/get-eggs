@@ -11,11 +11,15 @@ function is_debian {
 
     case $VERSION_CODENAME in 
         # Debian/Devuan/Ubuntu
-        bookworm | trixie | daedalus | noble | wilma)
+        trixie | excalibur | noble )
             echo ">> get-eggs, OK, is Debian or derivatives"
             ;;
 
-        buster | bullseye | chimaera | focal | jammy)
+        bookworm | daedalus | wilma | jammy)
+            echo ">> get-eggs, OK, is Debian or derivatives"
+            ;;
+
+        buster | bullseye | chimaera | focal )
             NODESOURCE=true
             echo ">> get-eggs, OK, is Debian or derivatives"
             ;;
