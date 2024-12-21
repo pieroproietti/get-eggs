@@ -1,6 +1,6 @@
 # get-eggs
 
-**get-eggs**: install penguins-eggs and configure it on your AlpineLinux, Arch, Debian, Devuan or Ubuntu or derivatives.
+**get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and derivatives.
 
 Before to start, we need the package `lsb-release` installed, this is default for mostly distros, but not on `AlpineLinux`  and `ArchLinux`.
 * on Alpine, uncomment community from `/etc/apk/repositories`, then `doas apk add lsb-release`;
@@ -22,6 +22,3 @@ To get a naked distro or a complete customized distro like colibri, starting fro
 
 # Fork it!
 This is a short and simple script, you are encouraged to fork the code and adapt it to your needs.
-
-# Note
-To create a naked Ubuntu I start from the server version, install it normally and after I remove the packages cloud-install and needrestart.
