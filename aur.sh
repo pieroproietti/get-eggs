@@ -34,7 +34,9 @@ source /etc/os-release
         garuda) # Garuda
             echo ">> get-eggs: OK, is Garuda"
             ;;
-        
+        nexalinux) # Nexa Linux
+            echo ">> get-eggs: OK, is Nexa Linux"
+            ;;
         rebornos) # RebornOS
             echo ">> get-eggs: OK, is RebornOS"
             ;;
