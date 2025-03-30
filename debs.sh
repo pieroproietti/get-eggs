@@ -68,6 +68,11 @@ function is_debian {
             echo ">> get-eggs OK, is Kali or derivatives"
             ;;
 
+        # nexa linux
+        nexalinux)
+            echo ">> get-eggs OK, is Nexa Linux or derivatives"
+            ;;
+
         # netrunner derivata da Debian stable
         desktop)
             echo ">> get-eggs OK, is Kali or derivatives"
