@@ -37,6 +37,9 @@ source /etc/os-release
         rebornos) # RebornOS
             echo ">> get-eggs: OK, is RebornOS"
             ;;
+        rlinux) # ReviveLinux
+            echo ">> get-eggs: OK, is ReviveLinux"
+            ;;
         *)
           echo ">> AUR: is for Arch and derivatives"
           exit
