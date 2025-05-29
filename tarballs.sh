@@ -4,6 +4,7 @@ source /etc/os-release
 FOUND=0
 case $ID in 
     almalinux)
+        FOUND=1
         ;;
     fedora)
         FOUND=1
@@ -20,7 +21,7 @@ case $ID in
 esac
 
 clear
-if [ $FOUND == 1 ]; then
+if [[ $FOUND == 1 ]]; then
     echo ">> get-eggs: OK, is $ID, penguins-eggs can be installed"
     echo ""
     echo "First: if SELINUX is enbled, disable it, and reboot;"
