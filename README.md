@@ -22,4 +22,4 @@ To get a naked distro or a complete customized distro like colibri, starting fro
 And follow instructions.
 
 # Fork it!
-This is a short and simple script, you are encouraged to fork the code and adapt it to your needs.
+This is a short and simple script, you are encouraged to fork it and adapt it to your needs. Of course PR will welcomed!
