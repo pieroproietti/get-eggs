@@ -9,7 +9,7 @@
 * on Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, get-eggs
 will add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18;
 
-* on Almalinux, Fedora, OpenSUSE and Rocky get-eggs ill install tarballs.
+* on Almalinux, Fedora, OpenSUSE and Rocky get-eggs will install penguins-eggs tarballs.
 
 To get a naked distro or a complete customized distro like colibri, starting from an original ISO Arch, Debian, Devuan or Ubuntu there is an [HOWTO](./documentation/HOWTO.md).
 
