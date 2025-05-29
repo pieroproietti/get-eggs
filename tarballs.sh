@@ -20,11 +20,18 @@ case $ID in
 esac
 
 if [ $FOUND==1 ]; then
+    clear
     echo ">> get-eggs: OK, is $ID"
+    echo ""
     echo "To install penguins-eggs"
+    echo "disable selinux: edit /etc/selicnux/conf"
+    echo "reboot"
+    echo ""
     echo "download penguins-eggs_10.1.1-1-linux-x64.tar.gz from https://penguins-eggs/basket"
+    echo ""
     echo "sudo tarballs/requirements/$ID/install.sh"
     echo "tarballs/setup path/to/penguins-eggs_10.1.1-1-linux-x64.tar.gz"
+
 fi
 
 
