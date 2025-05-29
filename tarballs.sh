@@ -19,26 +19,24 @@ case $ID in
         ;;
 esac
 
-if [ $FOUND==1 ]; then
-    clear
+clear
+if [ $FOUND == 1 ]; then
     echo ">> get-eggs: OK, is $ID, penguins-eggs can be installed"
     echo ""
-    echo "First: if SELINUX is enbled, disable it, and reboot"
-    echo "- edit /etc/selinux/conf, at the end add line SELINUX=disabled"
-    echo "- reboot"
+    echo "First: if SELINUX is enbled, disable it, and reboot;"
     echo ""
-    echo "Download penguins-eggs_10.1.1-1-linux-x64.tar.gz from https://penguins-eggs/basket"
+    echo "- edit /etc/selinux/conf, add the  line SELINUX=disabled at the end"
+    echo "- reboot"
     echo ""
     echo "Install requirements:"
     echo "sudo tarballs/requirements/$ID/install.sh"
     echo ""
+    echo "Download penguins-eggs_10.1.1-1-linux-x64.tar.gz from https://penguins-eggs/basket"
+    echo ""
     echo "Install penguins-eggs:"
     echo "tarballs/setup ~/Downloads/penguins-eggs_10.1.1-1-linux-x64.tar.gz"
     echo ""
-    echo "enjoy!"
+    echo "enjoy it!"
 else
-    echo ">> get-eggs: KO, is $ID, penguins-eggs cannot be installed"
+    echo ">> get-eggs: is $ID, penguins-eggs install the package"
 fi
-
-
-
