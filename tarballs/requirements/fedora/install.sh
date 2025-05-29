@@ -27,7 +27,6 @@ dnf -y --no-best install \
     cryptsetup \
     curl \
     device-mapper \
-    dmraid \
     dosfstools \
     dracut \
     dracut-live \
@@ -57,3 +56,6 @@ mkdir -p /usr/share/icons
 
 # disable selinux
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+
+
+# Rimoso dmrain 20250525

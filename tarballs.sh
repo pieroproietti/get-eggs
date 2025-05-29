@@ -36,7 +36,8 @@ if [ $FOUND==1 ]; then
     echo "tarballs/setup path/to/penguins-eggs_10.1.1-1-linux-x64.tar.gz"
     echo ""
     echo "enjoy!"
-
+else
+    echo ">> get-eggs: KO, is $ID, penguins-eggs cannot be installed"
 fi
 
 
