@@ -2,9 +2,9 @@
 
 **get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and derivatives.
 
-* on Arch, it will add AUR repository - from that the original name [addaura](./documentation/NAMING.md);
+* on Arch, it will add [Chaotic-AUR](https://aur.chaotic.cx/) repository;
 
-* on Debian/Devuan/Ubuntu, it will add a PPA for penguins-eggs;
+* on Debian/Devuan/Ubuntu, it will add a [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) for penguins-eggs, eggsmaker and others;
 
 * on Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, get-eggs
 will add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18;
