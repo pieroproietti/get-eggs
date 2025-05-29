@@ -21,7 +21,7 @@ esac
 
 if [ $FOUND==1 ]; then
     clear
-    echo ">> get-eggs: OK, is $ID"
+    echo ">> get-eggs: OK, is $ID, penguins-eggs can be installed"
     echo ""
     echo "Disable selinux:"
     echo "- edit /etc/selicnux/conf line SELINUX=disabled"
@@ -29,7 +29,7 @@ if [ $FOUND==1 ]; then
     echo ""
     echo "Download penguins-eggs_10.1.1-1-linux-x64.tar.gz from https://penguins-eggs/basket"
     echo ""
-    echo "Install prerequisites:"
+    echo "Install requirements:"
     echo "sudo tarballs/requirements/$ID/install.sh"
     echo ""
     echo "Install penguins-eggs:"
