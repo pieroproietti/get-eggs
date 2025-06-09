@@ -76,7 +76,7 @@ function main {
 
     # 5. Scarica e installa la chiave pubblica per verificare i pacchetti
     echo ">> Scarico e installo la chiave pubblica..."
-    wget -q --show-progress -O "${PUBLIC_KEY}" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${PUBLIC_KEY}/download"
+    wget -q -O "${PUBLIC_KEY}" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${PUBLIC_KEY}/download"
     $SUDO cp -f "${PUBLIC_KEY}" /etc/apk/keys/
 
     # 6. AVVISO E MODIFICA DEL FILE DI SISTEMA
@@ -94,14 +94,14 @@ function main {
     fi
     
     echo ">> Conferma ricevuta. Scarico e applico la modifica..."
-    wget -q --show-progress -O initramfs-init "https://sourceforge.net/projects/penguins-eggs/files/alpine/initramfs-init/download"
+    wget -q -O initramfs-init "https://sourceforge.net/projects/penguins-eggs/files/alpine/initramfs-init/download"
     $SUDO cp initramfs-init /usr/share/mkinitfs/initramfs-init
 
     # 7. Scarica i pacchetti di penguins-eggs
     echo ">> Scarico i pacchetti di penguins-eggs..."
-    wget -q --show-progress -O "penguins-eggs-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-${VERSION}.apk/download"
-    wget -q --show-progress -O "penguins-eggs-bash-completion-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-bash-completion-${VERSION}.apk/download"
-    wget -q --show-progress -O "penguins-eggs-doc-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-doc-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-bash-completion-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-bash-completion-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-doc-${VERSION}.apk" "https://sourceforge.net/projects/penguins-eggs/files/alpine/${ARCH}/penguins-eggs-doc-${VERSION}.apk/download"
     
     # 8. Installa i pacchetti scaricati
     echo ">> Installo penguins-eggs..."
