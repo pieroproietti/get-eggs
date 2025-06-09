@@ -25,7 +25,7 @@ function main {
     # Variabili
     VERSION="10.1.1-r8"
     PUBLIC_KEY="piero.proietti@gmail.com-68452915.rsa.pub"
-    DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine/"
+    DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine"
     SUDO=""
 
     # Determina se usare 'sudo' o 'doas'
@@ -78,7 +78,7 @@ function main {
     # 5. Scarica e installa la chiave pubblica per verificare i pacchetti
     echo ">> Scarico e installo la chiave pubblica..."
     wget -q -O "${PUBLIC_KEY}" "${DOWNLOAD_PAGE}/${PUBLIC_KEY}/download"
-    $SUDO cp -f "${PUBLIC_KEY}" /etc/apk/keys/
+    $SUDO mv -f "${PUBLIC_KEY}" /etc/apk/keys/
 
     # 6. AVVISO E MODIFICA DEL FILE DI SISTEMA
     # Questa è la posizione corretta per la richiesta di conferma
@@ -95,7 +95,7 @@ function main {
     fi
     
     echo ">> Conferma ricevuta. Scarico e applico la modifica..."
-    wget -q -O initramfs-init "https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine/initramfs-init/download"
+    wget -q -O initramfs-init "${DOWNLOAD_PAGE}/initramfs-init/download"
     $SUDO cp initramfs-init /usr/share/mkinitfs/initramfs-init
 
     # 7. Scarica i pacchetti di penguins-eggs
