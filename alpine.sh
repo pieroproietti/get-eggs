@@ -100,9 +100,9 @@ function main {
 
     # 7. Scarica i pacchetti di penguins-eggs
     echo ">> Scarico i pacchetti di penguins-eggs..."
-    wget -q  -O "penguins-eggs-${VERSION}.apk" "${DOWNLOAD_PAGE}/${ARCH}/penguins-eggs-${VERSION}.apk/download"
-    wget -q  -O "penguins-eggs-bash-completion-${VERSION}.apk" "${DOWNLOAD_PAGE}/${ARCH}/penguins-eggs-bash-completion-${VERSION}.apk/download"
-    wget -q  -O "penguins-eggs-doc-${VERSION}.apk" "${DOWNLOAD_PAGE}/${ARCH}/penguins-eggs-doc-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-bash-completion-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-bash-completion-${VERSION}.apk/download"
+    wget -q  -O "penguins-eggs-doc-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-doc-${VERSION}.apk/download"
     
     # 8. Installa i pacchetti scaricati
     echo ">> Installo penguins-eggs..."
