@@ -26,20 +26,6 @@ function main {
     VERSION="10.1.1-r8"
     PUBLIC_KEY="piero.proietti@gmail.com-68452915.rsa.pub"
     DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine"
-    SUDO=""
-
-    # Determina se usare 'sudo' o 'doas'
-    if command -v doas >/dev/null 2>&1; then
-        SUDO='doas'
-    elif command -v sudo >/dev/null 2>&1; then
-        SUDO='sudo'
-    else
-        # Se nessuno dei due è presente, controlla se l'utente è root
-        if [ "$EUID" -ne 0 ]; then
-            echo "Errore: 'sudo' o 'doas' non trovati. Esegui questo script come root."
-            exit 1
-        fi
-    fi
 
     # Messaggio iniziale
     clear
@@ -50,13 +36,13 @@ function main {
     press_a_key_to_continue
 
     # 1. Installazione prerequisiti
-    echo ">> Installazione dei pacchetti necessari (fuse, shadow)..."
-    $SUDO apk add shadow fuse
+    echo ">> Installazione dei pacchetti necessari (bash fuse shadow..."
+    doas apk add bash fuse shadow
 
     # 2. Abilitazione del modulo FUSE
     if [ ! -f /etc/modules-load.d/fuse.conf ]; then
         echo ">> Abilitazione del modulo 'fuse' al boot..."
-        echo "fuse" | $SUDO tee /etc/modules-load.d/fuse.conf > /dev/null
+        echo "fuse" | doas tee /etc/modules-load.d/fuse.conf > /dev/null
     fi
 
     # 3. Determina l'architettura
@@ -78,7 +64,7 @@ function main {
     # 5. Scarica e installa la chiave pubblica per verificare i pacchetti
     echo ">> Scarico e installo la chiave pubblica..."
     wget -q -O "${PUBLIC_KEY}" "${DOWNLOAD_PAGE}/${PUBLIC_KEY}/download"
-    $SUDO mv -f "${PUBLIC_KEY}" /etc/apk/keys/
+    doas mv -f "${PUBLIC_KEY}" /etc/apk/keys/
 
     # 6. AVVISO E MODIFICA DEL FILE DI SISTEMA
     # Questa è la posizione corretta per la richiesta di conferma
@@ -96,7 +82,7 @@ function main {
     
     echo ">> Conferma ricevuta. Scarico e applico la modifica..."
     wget -q -O initramfs-init "${DOWNLOAD_PAGE}/initramfs-init/download"
-    $SUDO cp initramfs-init /usr/share/mkinitfs/initramfs-init
+    doas cp initramfs-init /usr/share/mkinitfs/initramfs-init
 
     # 7. Scarica i pacchetti di penguins-eggs
     echo ">> Scarico i pacchetti di penguins-eggs..."
@@ -106,7 +92,7 @@ function main {
     
     # 8. Installa i pacchetti scaricati
     echo ">> Installo penguins-eggs..."
-    $SUDO apk add ./*.apk
+    doas apk add ./*.apk
 
     # Torna alla directory precedente
     cd - > /dev/null
