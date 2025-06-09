@@ -31,8 +31,8 @@ function main {
     elif [ "$arch" = "i686" ]; then
         ARCH="x86"
     fi
-    VERSION="10.0.37-r0"
-    cp -f piero.proietti@gmail.com-66b8815d.rsa.pub /etc/apk/keys/
+    VERSION="10.1.1-r8"
+    cp -f piero.proietti@gmail.com-68452915.rsa.pub /etc/apk/keys/
     mkdir -p /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
     cd /tmp/"$DOAS_USER"/packages/alpine/"$ARCH"/
     wget -O penguins-eggs-"$VERSION".apk https://sourceforge.net/projects/penguins-eggs/files/alpine/"$ARCH"/penguins-eggs-"$VERSION".apk/download
