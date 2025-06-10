@@ -7,5 +7,9 @@ fi
 VERSIONS=$1
 
 VERSION="10.1.1-10"
+TAR_NAME="penguins-eggs_$VERSIOM-linux-x64.tar.gz"
 DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/tarballs/"
-wget -q  -O "penguins-eggs_${VERSION}-linux-x64.tar.gz" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}-linux-x64.tar.gz/download"
+
+echo wget -q  -O "$TAR_NAME" "${DOWNLOAD_PAGE}/$TAR_NAME/download"
+
+
