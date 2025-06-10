@@ -20,6 +20,9 @@ case $ID in
         ;;
 esac
 
+VERSION="10.1.1-10"
+DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/tarballs/"
+
 clear
 if [[ $FOUND == 1 ]]; then
     echo ">> get-eggs: OK, is $ID, penguins-eggs can be installed"
@@ -32,10 +35,10 @@ if [[ $FOUND == 1 ]]; then
     echo "Install requirements:"
     echo "sudo tarballs/requirements/$ID/install.sh"
     echo ""
-    echo "Download penguins-eggs_10.1.1-1-linux-x64.tar.gz from https://penguins-eggs/basket"
+    echo "Download penguins-eggs_$VERSION-linux-x64.tar.gz from "
     echo ""
     echo "Install penguins-eggs:"
-    echo "tarballs/setup ~/Downloads/penguins-eggs_10.1.1-1-linux-x64.tar.gz"
+    echo "tarballs/setup ~/Downloads/penguins-eggs_$VERSION-linux-x64.tar.gz from $DOWNLOAD_PAGE"
     echo ""
     echo "enjoy it!"
 else
