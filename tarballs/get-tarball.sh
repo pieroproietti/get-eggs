@@ -5,4 +5,7 @@ else
     VERSION="$1"
 fi
 VERSIONS=$1
-wget https://penguins-eggs.net/basket/index.php/packages/penguins-eggs_10.1.1-1-linux-x64.tar.gz
+
+VERSION="10.1.1-10"
+DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/tarballs/"
+wget -q  -O "penguins-eggs_10.1.1-10-linux-x64.tar.gz" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}.apk/download"
