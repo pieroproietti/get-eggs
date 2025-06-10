@@ -23,9 +23,9 @@ function main {
     trap cleanup EXIT
 
     # Variabili
-    VERSION="10.1.1-r8"
+    VERSION="10.1.1-r10"
     PUBLIC_KEY="piero.proietti@gmail.com-68452915.rsa.pub"
-    DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine"
+    DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/alpine/"
 
     # Messaggio iniziale
     clear
@@ -34,16 +34,6 @@ function main {
     echo ">> Verrà installata la chiave pubblica: ${PUBLIC_KEY}"
     echo ""
     press_a_key_to_continue
-
-    # 1. Installazione prerequisiti
-    echo ">> Installazione dei pacchetti necessari (bash fuse shadow..."
-    doas apk add bash fuse shadow
-
-    # 2. Abilitazione del modulo FUSE
-    if [ ! -f /etc/modules-load.d/fuse.conf ]; then
-        echo ">> Abilitazione del modulo 'fuse' al boot..."
-        echo "fuse" | doas tee /etc/modules-load.d/fuse.conf > /dev/null
-    fi
 
     # 3. Determina l'architettura
     arch=$(uname -m)
@@ -63,7 +53,7 @@ function main {
 
     # 5. Scarica e installa la chiave pubblica per verificare i pacchetti
     echo ">> Scarico e installo la chiave pubblica..."
-    wget -q -O "${PUBLIC_KEY}" "${DOWNLOAD_PAGE}/${PUBLIC_KEY}/download"
+    wget -q -O "${PUBLIC_KEY}" "${DOWNLOAD_PAGE}/install/${PUBLIC_KEY}/download"
     doas mv -f "${PUBLIC_KEY}" /etc/apk/keys/
 
     # 6. AVVISO E MODIFICA DEL FILE DI SISTEMA
@@ -81,14 +71,23 @@ function main {
     fi
     
     echo ">> Conferma ricevuta. Scarico e applico la modifica..."
-    wget -q -O initramfs-init "${DOWNLOAD_PAGE}/initramfs-init/download"
+    wget -q -O initramfs-init "${DOWNLOAD_PAGE}/install/initramfs-init/download"
     doas cp initramfs-init /usr/share/mkinitfs/initramfs-init
 
     # 7. Scarica i pacchetti di penguins-eggs
     echo ">> Scarico i pacchetti di penguins-eggs..."
-    wget -q  -O "penguins-eggs-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}.apk/download"
-    wget -q  -O "penguins-eggs-bash-completion-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-bash-completion-${VERSION}.apk/download"
-    wget -q  -O "penguins-eggs-doc-${VERSION}.apk" "${DOWNLOAD_PAGE}/penguins-eggs-doc-${VERSION}.apk/download"
+    
+    penguins="penguins-eggs-${VERSION}.apk"
+    penguins_bash="penguins-eggs-bash-completion-${VERSION}.apk"
+    penguins_doc="penguins-eggs-doc-${VERSION}.apk"
+    echo "Scarico $penguins_bash"
+    wget -q  -O "$penguins_bash" "${DOWNLOAD_PAGE}$ARCH/penguins-eggs-bash-completion-${VERSION}.apk/download"
+
+    echo "Scarico $penguins_doc"
+    wget -q  -O "$penguins_doc" "${DOWNLOAD_PAGE}$ARCH/penguins-eggs-doc-${VERSION}.apk/download"
+
+    echo "Scarico $penguins"
+    wget -q  -O "$penguins" "${DOWNLOAD_PAGE}$ARCH/penguins-eggs-${VERSION}.apk/download"
     
     # 8. Installa i pacchetti scaricati
     echo ">> Installo penguins-eggs..."
