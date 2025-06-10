@@ -8,4 +8,4 @@ VERSIONS=$1
 
 VERSION="10.1.1-10"
 DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/tarballs/"
-wget -q  -O "penguins-eggs_10.1.1-10-linux-x64.tar.gz" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}-linux-x64.tar.gz/download"
+wget -q  -O "penguins-eggs_${VERSION}-linux-x64.tar.gz" "${DOWNLOAD_PAGE}/penguins-eggs-${VERSION}-linux-x64.tar.gz/download"
