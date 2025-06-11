@@ -20,6 +20,7 @@ zypper install -y \
     curl \
     dosfstools \
     dracut \
+    dracut-extra \
     dracut-tools \
     fuse \
     git \
