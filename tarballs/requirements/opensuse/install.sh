@@ -14,6 +14,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 zypper install -y \
+    bash \
     bash-completion \
     cryptsetup \
     curl \
