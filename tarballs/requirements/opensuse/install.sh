@@ -20,8 +20,6 @@ zypper install -y \
     curl \
     dosfstools \
     dracut \
-    dracut-extra \
-    dracut-tools \
     fuse \
     git \
     grub2-x86_64-efi \
