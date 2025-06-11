@@ -29,6 +29,7 @@ zypper install -y \
     lvm2 \
     parted \
     rsync \
+    shadow \
     squashfs \
     sshfs \
     wget \
