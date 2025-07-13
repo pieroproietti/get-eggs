@@ -123,7 +123,10 @@ function install_requirements() {
         openmamba)
             $SUDO ./requirements/openmamba/install.sh
             ;;
-
+        
+        opensuse-slowroll )
+            $SUDO ./requirements/opensuse/install.sh
+            ;;
         opensuse-tumbleweed)
             $SUDO ./requirements/opensuse/install.sh
             ;;
