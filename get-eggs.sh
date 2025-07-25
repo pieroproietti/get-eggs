@@ -11,9 +11,13 @@
 LAST_RELEASE="25.7.22"
 URL_BASE="https://penguins-eggs.net/basket/packages"
 
+source ./prepare_pkgs.sh
+
 function title {
     clear
-    echo "get-eggs: UNIVERSAL INSTALLER FOR penguins-eggs " 
+    echo "====================================="
+    echo "UNIVERSAL INSTALLER FOR penguins-eggs" 
+    echo "====================================="
     echo ""
 }
 
@@ -23,8 +27,6 @@ function press_a_key_to_continue {
     read -rp ">> Press enter to continue or CTRL-C to abort."
     title
 }
-
-source prepare_pkgs.sh
 
 
 # --- Controllo utente Root ---
