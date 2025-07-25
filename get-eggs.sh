@@ -49,7 +49,17 @@ FOLDER=""
 PACKAGES=()      # Array per i pacchetti da scaricare
 INSTALL_CMDS=()  # Array per i comandi da eseguire in sequenza
 
+# not_supported_ids
+not_supported=("garuda")
+
+
 case "$ID" in
+    *not_supported*))
+        echo "Your distribution ($PRETTY_NAME) is not supported." >&2
+        exit 1
+        ;;
+
+
     alpine)
         prepare_alpine
         ;;
