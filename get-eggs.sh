@@ -54,10 +54,8 @@ INSTALL_CMDS=()  # Array per i comandi da eseguire in sequenza
 case "$ID" in
     # NOT SUPPORTED
     garuda)
-        echo "Your distribution ($PRETTY_NAME) is not supported." >&2
-        exit 1
+        not_supported
         ;;
-
 
     # SUPPORTED
     alpine)
@@ -65,6 +63,7 @@ case "$ID" in
         ;;
 
     arch)
+        prepare_arch
         ;;
 
     debian | devuan| mint | pop| ubuntu)

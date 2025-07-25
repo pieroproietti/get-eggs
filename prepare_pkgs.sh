@@ -1,5 +1,11 @@
 #!/bin/bash
 
+function not_supported {
+        echo "Your distribution ($PRETTY_NAME) is not supported." >&2
+        exit 1
+}
+
+
 function prepare_aur {
     FOLDER="aur"
     PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
@@ -38,7 +44,7 @@ function prepare_fedora_or_el9 {
 }
 
 function prepare_manjaro {
-    FOLDER="aur"
+    FOLDER="manjaro"
     PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
     INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
 }
