@@ -7,9 +7,9 @@
 
 * on Debian/Devuan/Ubuntu and derivatives, it's possible to [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) for penguins-eggs and eggsmaker, using `sudo eggs tools ppa --add`;
 
-* on non recent Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, you must to add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18 before to run get-eggs;
+* on non recent distros, like: Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, you must to add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>=18 before to run get-eggs;
 
-* Ubuntu bionic is supported too, you must add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs=16 and install the package [penguins-eggs-25.x.x-1bionic.amd64.deb](https://penguins-eggs.net/basket/index.php/packages/?p=packages%2Fdebs) manually,
+* In some distributions, where nodejs >=18 is not available, you can still install penguins-eggs installing nodejs=16 from [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) and manually installing  the special package [penguins-eggs-25.x.x-1bionic.amd64.deb](https://penguins-eggs.net/basket/index.php/packages/?p=packages%2Fdebs) we continue to mantain.
 
 # USAGE
 
