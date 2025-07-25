@@ -1,4 +1,7 @@
-#!/bin/bash -e
+#!/bin/bash
+source ./libs.sh
+
+LAST_RELEASE="25.7.22"
 
 # Controllo se l'utente è root
 if [ "$EUID" -ne 0 ]; then
@@ -6,49 +9,32 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# Carica le variabili dal file /etc/os-release
-source /etc/os-release
-
-# Funzione per verificare se una stringa è contenuta in un'altra
-contains() {
-    [[ "$1" == *"$2"* ]]
-}
-
-# Controlla il valore di ID e ID_LIKE
-if [ "$ID" = "alpine" ] || [ "$ID_LIKE" = "alpine" ]; then
-    source ./alpine.sh
-
-elif [ "$ID" = "arch" ] || 
-     contains "$ID_LIKE" "arch"; then
-    source ./aur.sh
-
-elif [ "$ID" = "debian" ] || 
-     [ "$ID" = "ubuntu" ] || 
-     [ "$ID" = "linuxmint" ] || 
-     contains "$ID_LIKE" "debian" || 
-     contains "$ID_LIKE" "ubuntu"; then
-
-    source ./debs.sh
-
-elif [ "$ID" = "fedora" ] || 
-     contains "$ID_LIKE" "fedora" || 
-     contains "$ID_LIKE" "rhel" || 
-     contains "$ID_LIKE" "centos"; then
-
-    source ./tarballs.sh
-
-elif [ "$ID" = "manjaro" ] || 
-     [ "$ID" = "biglinux" ] || 
-     [ "$ID" = "bigcommunity" ]; then
-
-    source ./manjaro.sh
+# Logica di rilevamento
+# -----------------------------------------------------------------
+if [ -f /etc/os-release ]; then
+    source /etc/os-release
+else
+    echo "Errore: /etc/os-release non trovato. Impossibile determinare la distribuzione."
+    exit 1
 fi
 
-# Gestione di ID_LIKE non impostato o casi specifici
-if [ "$ID" = "artix" ] || 
-   [ "$ID" = "blendos" ] || 
-   [ "$ID" = "blackarch" ] || 
-   [ "$ID" = "crystal" ]; then
+echo "Detected: $PRETTY_NAME"
 
-    source ./aur.sh
+if [ "$ID" = "alpine" ]; then
+    source ./PKGS/alpine.sh
+elif [ "$ID" = "debian" ] || [[ "$ID_LIKE" == *"debian"* ]]; then
+    source ./PKGS/debs.sh
+elif [ "$ID" = "fedora" ]; then
+    source ./PKGS/fedora.sh
+elif [[ "$ID_LIKE" == *"rhel"* ]] && [[ "$VERSION_ID" == 9* ]]; then
+    source ./PKGS/ef9.sh
+elif [ "$ID" = "sles" ] || [[ "$ID_LIKE" == *"suse"* ]]; then
+    source ./PKGS/opensuse.sh
+elif [ "$ID" = "manjaro" ] || [[ "$ID_LIKE" == *"manjaro"* ]]; then
+    source ./PKGS/manjaro.sh
+elif [ "$ID" = "arch" ] || [[ "$ID_LIKE" == *"arch"* ]]; then
+    source ./PKGS/aur.sh
+else
+    echo "La tua distribuzione ($PRETTY_NAME) non è attualmente supportata da questo script di installazione."
+    exit 1
 fi

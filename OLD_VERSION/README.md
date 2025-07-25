@@ -1,44 +1,5 @@
 # get-eggs
 
-* APKGS
-  * Alpine
-* DEBS
-  * Debian
-  * Devuan
-  * Ubuntu
-* PKGBUILDS
-  * Arch
-  * Biglinux
-  * Manjaro
-* RPMS
-  * el9
-  * fc42
-  * opensuse
-  * openmamba
-* TARBALLS
-
-| Distribuzione | ID |
-| :--- | :--- |
-|Alpine Linux	|alpine	|
-|Arch Linux| arch		|
-|Debian| debian |
-|Fedora|	fedora	|
-
-| Distribuzione | ID | ID_LIKE |
-| :--- | :--- | :--- |
-|AlmaLinux|	almalinux| rhel fedora |
-|Biglinux| biglinux | manjaro arch |
-|Linuxmint| linuxmint| ubuntu|
-|LMDE| lmde | debian|
-|Manjaro| ID: manjaro| ID_LIKE: arch|
-|openSUSE Leap|	opensuse-leap	|suse opensuse |
-|openSUSE Slowroll|opensuse-slowroll|suse opensuse |
-|openSUSE Tumbleweed|opensuse-tumbleweed|suse opensuse |
-|RHEL| rhel| fedora|
-|Rocky Linux|	rocky|	rhel fedora	|
-|SLES| sles | suse|
-|Ubuntu|	ubuntu	|	debian |
-
 **get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and derivatives.
 
 * on Arch, it will add [Chaotic-AUR](https://aur.chaotic.cx/) repository;
