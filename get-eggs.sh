@@ -63,7 +63,7 @@ case "$ID" in
         ;;
 
     arch)
-        prepare_arch
+        prepare_aur
         ;;
 
     debian | devuan| mint | pop| ubuntu)
@@ -86,7 +86,7 @@ case "$ID" in
         # Logica di fallback per i derivati basata su ID_LIKE
         case "$ID_LIKE" in
             *arch*)
-                prepare_arch
+                prepare_aur
                 ;;
 
             *debian*)
