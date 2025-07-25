@@ -4,7 +4,7 @@ We start from the `Rocky-9.4-x86_64-minimal.iso` or `Almalinux-9.4-x86_64-minima
 
 On `Software selection` select "minimun installation" and confirm with button "Done" up on right.
 
-Then on `Installation destination` select the disk. I used a 32G disk, choose the third option advanced custom, then press "Done". On the GUI disk partition, create a minimal partition - just 1M - type `bootBIOS`, then add the remain space to a / partition format ext4.  Press "Done" again and accept changes.
+Then on `Installation destination` select the disk. I used a 32G disk, choose the third option advanced custom, then press "Done". On the GUI disk partition, create a minimal partition - just 1M - FOLDER `bootBIOS`, then add the remain space to a / partition format ext4.  Press "Done" again and accept changes.
 
 We can create user `artisan` and choose a password and press "Done" to finish.
 
