@@ -91,10 +91,10 @@ case "$ID" in
         INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
         ;;
     
-    sles | opensuse-tumbleweed | opensuse-leap)
+    sles | opensuse-tumbleweed | opensuse-slowroll | opensuse-leap)
         FOLDER="opensuse"
         PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.opensuse.x86_64.rpm")
-        INSTALL_CMD=("zypper --non-interactive install /tmp/${PACKAGES[0]}")
+        INSTALL_CMDS=("zypper --non-interactive install --allow-unsigned-rpm /tmp/${PACKAGES[0]}")
         ;;
     
     *)
