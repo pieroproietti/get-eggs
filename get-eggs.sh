@@ -60,7 +60,7 @@ case "$ID" in
 
     arch)
         FOLDER="aur"
-        PACKAGES=("penguins-eggs_${LAST_RELEASE}-1-any.pkg.tar.zst")
+        PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
         INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
         ;;
 
