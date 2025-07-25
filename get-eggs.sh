@@ -11,7 +11,6 @@
 LAST_RELEASE="25.7.22"
 URL_BASE="https://penguins-eggs.net/basket/packages"
 
-# --- Funzioni di Utilità ---
 function title {
     clear
     echo "get-eggs: UNIVERSAL INSTALLER FOR penguins-eggs " 
@@ -24,6 +23,9 @@ function press_a_key_to_continue {
     read -rp ">> Press enter to continue or CTRL-C to abort."
     title
 }
+
+source prepare_pkgs.sh
+
 
 # --- Controllo utente Root ---
 title
@@ -49,82 +51,41 @@ INSTALL_CMDS=()  # Array per i comandi da eseguire in sequenza
 
 case "$ID" in
     alpine)
-        FOLDER="alpine/x86_64"
-        PACKAGES=(
-            "penguins-eggs-${LAST_RELEASE}-r1.apk"
-            "penguins-eggs-bash-completion-${LAST_RELEASE}-r1.apk"
-            "penguins-eggs-doc-${LAST_RELEASE}-r1.apk"
-        )
-        INSTALL_CMDS=("apk add --allow-untrusted /tmp/${PACKAGES[0]} /tmp/${PACKAGES[1]} /tmp/${PACKAGES[2]}")
+        prepare_alpine
         ;;
 
     arch)
-        FOLDER="aur"
-        PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
-        INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
         ;;
 
     debian | devuan| mint | pop| ubuntu)
-        FOLDER="debs"
-        PACKAGES=("penguins-eggs_${LAST_RELEASE}-1_amd64.deb")
-        INSTALL_CMDS=(
-            "dpkg -i /tmp/${PACKAGES[0]}"
-            "apt-get install -y -f"
-        )
+        prepare_debs
         ;;
 
     fedora)
-        if [[ "$VERSION_ID" == 9* ]]; then
-            FOLDER="el9"
-            PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.el9.x86_64.rpm")
-            INSTALL_CMDS=("dnf install -y /tmp/${PACKAGES[0]}")
-        else 
-            FOLDER="fedora"
-            PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.fc42.x86_64.rpm")
-            INSTALL_CMDS=("dnf install -y /tmp/${PACKAGES[0]}")
-        fi
+        prepare_fedora_or_el9
         ;;
 
     manjaro | biglinux)
-        FOLDER="aur"
-        PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
-        INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
+        prepare_manjaro
         ;;
     
     sles | opensuse-tumbleweed | opensuse-slowroll | opensuse-leap)
-        FOLDER="opensuse"
-        PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.opensuse.x86_64.rpm")
-        INSTALL_CMDS=("zypper --non-interactive install --allow-unsigned-rpm /tmp/${PACKAGES[0]}")
+        prepare_opensuse
         ;;
     
     *)
         # Logica di fallback per i derivati basata su ID_LIKE
         case "$ID_LIKE" in
             *arch*)
-                FOLDER="aur"
-                PACKAGES=("penguins-eggs-${LAST_RELEASE}-1-any.pkg.tar.zst")
-                INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
+                prepare_arch
                 ;;
 
             *debian*)
-                FOLDER="debs"
-                PACKAGES=("penguins-eggs_${LAST_RELEASE}-1_amd64.deb")
-                INSTALL_CMDS=(
-                    "dpkg -i /tmp/${PACKAGES[0]}"
-                    "apt-get install -y -f"
-                )
+                prepare_debs
                 ;;
 
             *fedora*)
-                if [[ "$VERSION_ID" == 9* ]]; then
-                    FOLDER="el9"
-                    PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.el9.x86_64.rpm")
-                    INSTALL_CMDS=("dnf install -y /tmp/${PACKAGES[0]}")
-                else 
-                    FOLDER="fedora"
-                    PACKAGES=("penguins-eggs-${LAST_RELEASE}-1.fc42.x86_64.rpm")
-                    INSTALL_CMDS=("dnf install -y /tmp/${PACKAGES[0]}")
-                fi
+                prepare_fedora_or_el9
                 ;;
             # Aggiungere altri fallback se necessario
             *)
