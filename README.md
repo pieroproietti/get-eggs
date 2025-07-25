@@ -1,56 +1,15 @@
 # get-eggs
 
-* APKGS
-  * Alpine
-* DEBS
-  * Debian
-  * Devuan
-  * Ubuntu
-* PKGBUILDS
-  * Arch
-  * Biglinux
-  * Manjaro
-* RPMS
-  * el9
-  * fc42
-  * opensuse
-  * openmamba
-* TARBALLS
+**get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and most derivatives.
 
-| Distribuzione | ID |
-| :--- | :--- |
-|Alpine Linux	|alpine	|
-|Arch Linux| arch		|
-|Debian| debian |
-|Fedora|	fedora	|
+# Notes
+* on Arch, you can add Automated building repo for AUR packages [Chaotic-AUR](https://aur.chaotic.cx/) to get fresh penguins-eggs packages.
 
-| Distribuzione | ID | ID_LIKE |
-| :--- | :--- | :--- |
-|AlmaLinux|	almalinux| rhel fedora |
-|Biglinux| biglinux | manjaro arch |
-|Linuxmint| linuxmint| ubuntu|
-|LMDE| lmde | debian|
-|Manjaro| ID: manjaro| ID_LIKE: arch|
-|openSUSE Leap|	opensuse-leap	|suse opensuse |
-|openSUSE Slowroll|opensuse-slowroll|suse opensuse |
-|openSUSE Tumbleweed|opensuse-tumbleweed|suse opensuse |
-|RHEL| rhel| fedora|
-|Rocky Linux|	rocky|	rhel fedora	|
-|SLES| sles | suse|
-|Ubuntu|	ubuntu	|	debian |
+* on Debian/Devuan/Ubuntu and derivatives, it's possible to [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) for penguins-eggs and eggsmaker, using `sudo eggs tools ppa --add`;
 
-**get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and derivatives.
+* on non recent Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, you must to add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18 before to run get-eggs;
 
-* on Arch, it will add [Chaotic-AUR](https://aur.chaotic.cx/) repository;
-
-* on Debian/Devuan/Ubuntu, it will add a [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) for penguins-eggs, eggsmaker and others;
-
-* on Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, get-eggs
-will add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>18;
-
-* on Almalinux, Fedora, OpenSUSE and Rocky get-eggs will install penguins-eggs tarballs.
-
-To get a naked distro or a complete customized distro like colibri, starting from an original ISO Arch, Debian, Devuan or Ubuntu there is an [HOWTO](./documentation/HOWTO.md).
+* Ubuntu bionic is supported too, you must add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs=16 and install the package [penguins-eggs-25.x.x-1bionic.amd64.deb](https://penguins-eggs.net/basket/index.php/packages/?p=packages%2Fdebs) manually,
 
 # USAGE
 
