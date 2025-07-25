@@ -3,9 +3,9 @@
 **get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and most derivatives.
 
 # Notes
-* on Arch, you can add Automated building repo for AUR packages [Chaotic-AUR](https://aur.chaotic.cx/) to get fresh penguins-eggs packages.
-
 * on Debian/Devuan/Ubuntu and derivatives, it's possible to [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) for penguins-eggs and eggsmaker, using `sudo eggs tools ppa --add`;
+
+* on Arch, you can add Automated building repo for AUR packages [Chaotic-AUR](https://aur.chaotic.cx/) to get fresh penguins-eggs packages. Just use: `sudo ./add-aur-chaotic.sh`.
 
 * on non recent distros, like: Debian buster / bullseye, Ubuntu 20.04 / 22.04 and derivatives, you must to add [nodesource repo](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions) for nodejs>=18 before to run get-eggs;
 
