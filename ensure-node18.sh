@@ -6,7 +6,9 @@ ensure_node18() {
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
 
   # refresh dei pacchetti
-  apt-get update
+  if ! apt update; then
+    exit 1
+  fi
 
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
