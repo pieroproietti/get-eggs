@@ -8,11 +8,11 @@ need_nodesource() {
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
       echo "Available $version. No need to add nodesource repo."
-      return 1 # nodejs 18 available
+      return 0 # nodejs 18 available
     fi
   done
   echo "We need to add nodesource repos"
-  return 0
+  return 1
 }
 
 add_nodesource() {
