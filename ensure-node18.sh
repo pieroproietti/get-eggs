@@ -13,6 +13,7 @@ ensure_node18() {
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
       echo "Available $version."
+      press_a_key_to_continue
       return # nodejs 18 is available
     fi
   done
@@ -22,6 +23,7 @@ ensure_node18() {
   press_a_key_to_continue
   if ! curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -; then
     echo "Where was an errore updating your repos"
+    press_a_key_to_continue
     exit 1
   fi
 }
