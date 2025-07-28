@@ -67,6 +67,10 @@ case "$ID" in
         ;;
 
     debian | devuan| mint | pop| ubuntu)
+        source ./add-nodesource
+        if ! check_node18; then
+            add_nodesource
+        fi
         prepare_debs
         ;;
 
