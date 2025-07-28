@@ -1,4 +1,4 @@
-# Compatibility list
+# SUPPORTED DISTROS
 
 I just take the list from [distrowatch](https://distrowatch.com/), to get an idea where we are.
 
