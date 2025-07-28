@@ -7,7 +7,7 @@ ensure_node18() {
 
   # refresh dei pacchetti
   apt-get update
-  
+
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
       echo "Available $version. No need to add nodesource repo."
@@ -16,6 +16,7 @@ ensure_node18() {
   done
 
   # add nodesource repository
+  echo "adding nodesource repo"
   curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
   apt-get update
 }
