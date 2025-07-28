@@ -51,9 +51,9 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 45|Devuan|OK||
 | 46|ALT|||
 | 47|DragonOS|||
-| 48|Red Hat|--|never tested|
+| 48|Red Hat|--|Never tested|
 | 49|Ultimate|||
-| 50|ReactOS: Another OS
+| 50|ReactOS|--|Not Linux, different OS|
 | 51|Xubuntu|OK||
 | 52|KaOS| KO|Distro not supported| 
 | 53|Chimera|||
@@ -84,7 +84,7 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 78|ArchBang|||
 | 79|Emmabuntüs|OK||
 | 70|Tiny Core|--|Distro not supported|
-| 80|Oracle|--|never tested|
+| 80|Oracle|--|Never tested|
 | 81|Murena|||
 | 82|4MLinux|||
 | 83|Bazzite|||
