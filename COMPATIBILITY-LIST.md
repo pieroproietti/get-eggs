@@ -1,6 +1,13 @@
 # Compatibility list
 
-I just take the list from [distrowatch](https://distrowatch.com/), to get an idea where we are. The order reflect Page Hit Ranking at 2025 luly, 28:
+I just take the list from [distrowatch](https://distrowatch.com/), to get an idea where we are.
+
+Most of the information comes from direct experience, even from some time ago, and there may be errors. For example, some time ago Garuda could be remastered by removing the garuda-dracut package, but now it cannot.
+
+If you have different results, or know more, you can report it in the ISSUE.
+
+
+The order reflect Page Hit Ranking at 2025 luly, 28:
 
 | Rank | Distro | Status | Note |
 |------|--------|--------|------|
