@@ -100,8 +100,6 @@ case "$ID" in
                 echo "Distro detected: $PRETTY_NAME"
                 echo ""
                 prepare_debs
-
-                prepare_debs
                 ;;
 
             *fedora*)

@@ -25,8 +25,9 @@ function prepare_alpine {
 function prepare_debs {
     FOLDER="debs"
     PACKAGES=("penguins-eggs_${LAST_RELEASE}-1_amd64.deb")
+    # in debian -y va dopo!
     INSTALL_CMDS=(
-        "apt-get install  -y /tmp/${PACKAGES[0]}"
+        "apt-get install /tmp/${PACKAGES[0]} -y"
     )
 }
 
