@@ -25,4 +25,5 @@ function ensure_node18() {
   wait_for_apt
   press_a_key_to_continue
   curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
+  press_a_key_to_continue
 }
