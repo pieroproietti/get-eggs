@@ -11,6 +11,7 @@
 LAST_RELEASE="25.7.22"
 URL_BASE="https://penguins-eggs.net/basket/packages"
 
+source ./ensure-node18.sh
 source ./prepare_pkgs.sh
 
 function title {
@@ -66,8 +67,7 @@ case "$ID" in
         prepare_aur
         ;;
 
-    debian | devuan| mint | pop| ubuntu)
-        source ./ensure-node18.sh
+    debian | devuan| ubuntu)
         ensure_node18
         title
         echo "Distro detected: $PRETTY_NAME"
@@ -95,6 +95,12 @@ case "$ID" in
                 ;;
 
             *debian*)
+                ensure_node18
+                title
+                echo "Distro detected: $PRETTY_NAME"
+                echo ""
+                prepare_debs
+
                 prepare_debs
                 ;;
 
