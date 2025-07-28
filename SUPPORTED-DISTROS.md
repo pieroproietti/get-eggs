@@ -33,7 +33,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 20|Garuda|No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
 | 21|AlmaLinux|OK|version 9.6|
 | 22|Kali|OK||
-| 23|FreeBSD|--|Not Linux, different OS|
+| 23|FreeBSD|No|Not Linux, different OS|
 | 24|Solus|--|--|
 | 25|SparkyLinux|OK||
 | 26|BigLinux|OK||
@@ -74,12 +74,12 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 61|Peppermint|OK||
 | 62|RebornOS|OK||
 | 63|blendOS|||
-| 64| Mageia|--|Distro not supported|
+| 64| Mageia|No|Distro not supported|
 | 65|Rhino|OK||
 | 66|Bodhi|OK||
 | 67|FunOS|--|Distro not supported|
-| 68|hostBSD: Another OS
-| 69|Nitrux|--|Distro not supported|
+| 68|hostBSD|No|Not Linux, different OS|
+| 69|Nitrux|No|Distro not supported|
 | 70|wattO|||
 | 71|AV Linux|||
 | 72|Kodachi|||
@@ -90,7 +90,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 77|Regata|||
 | 78|ArchBang|||
 | 79|Emmabuntüs|OK||
-| 80|Tiny Core|--|Distro not supported|
+| 80|Tiny Core|No|Distro not supported|
 | 81|Oracle|--|Never tested|
 | 82|Murena|||
 | 83|4MLinux|||
