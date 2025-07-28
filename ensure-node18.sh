@@ -2,8 +2,8 @@
 
 function wait_for_apt {
   while fuser /var/lib/dpkg/lock >/dev/null 2>&1 || fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do
-    echo "waiting for another process APT/DPKG..."
-    sleep 5 # Attende 5 secondi prima di ricontrollare
+    echo "Waiting for another process APT/DPKG to unlock..."
+    sleep 5
   done
 }
 
@@ -18,21 +18,19 @@ function ensure_node18() {
     exit 1
   fi
 
+  title
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
-      title
-      echo "nodejs $version is already available."
-      sleep 2 # just to see it
-      return # nodejs 18 is available
+      echo "Package nodejs $version is available..."
+      return
     fi
   done
 
   # add nodesource repository
-  title
   echo "We need tp add nodejs>18 via nodesource repo"
-  sleep 2 # just to see it
+  sleep 2
   wait_for_apt
-  curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
+  curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -; then
 
   # free the LOCK before to end
   wait_for_apt
