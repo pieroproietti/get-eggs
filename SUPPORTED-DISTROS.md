@@ -23,23 +23,23 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 10|[Zorin](https://zorin.com/os/)         |OK||
 | 11|[openSUSE](https://www.opensuse.org/)  |OK| calamares on the repos is not complete, use krill to install|
 | 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|
-| 13|elementary|OK||
-| 14| NixOS|No|Distro not supported|
-| 15|KDE neon|OK||
-| 16|AnduinOS|OK||
-| 17|TUXEDO|||
-| 18|antiX|OK||
-| 19|Bluestar|OK||
-| 20|Garuda|No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
-| 21|AlmaLinux|OK|version 9.6|
-| 22|Kali|OK||
-| 23|FreeBSD|No|Not Linux, different OS|
-| 24|Solus|--|--|
-| 25|SparkyLinux|OK||
-| 26|BigLinux|OK||
-| 27|Alpine|OK||
-| 28|CentOS|--|--|
-| 29|Q4OS|OK||
+| 13|[elementary](https://elementary.io)    |OK||
+| 14|[NixOS](https://nixos.org/)            |No|Distro not supported|
+| 15|[KDE neon](https://neon.kde.org/)      |OK||
+| 16|[AnduinOS](https://www.anduinos.com/)  |OK||
+| 17|TUXEDO|(https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|UK||
+| 18|[antiX](https://antixlinux.com/)       |OK||
+| 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||
+| 20|[Garuda](https://garudalinux.org/)     |No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
+| 21|[AlmaLinux](https://almalinux.org/)    |OK|version 9.6|
+| 22|[Kali](https://www.kali.org/)          |OK||
+| 23|[FreeBSD](https://www.freebsd.org/)    |No|Not Linux, different OS|
+| 24|[Solus](https://getsol.us/)            |No|Distro not supported|
+| 25|[SparkyLinux](https://sparkylinux.org/)|OK||
+| 26|[BigLinux](https://sparkylinux.org/)   |OK||
+| 27|[Alpine](https://www.alpinelinux.org/)|OK||
+| 28|[CentOS](https://www.centos.org/)      |||
+| 29|[Q4OS](https://q4os.org/)              |OK||
 | 30|Lite|OK||
 | 31|Puppy|--|Distro not supported|
 | 32|EasyOS|OK||
