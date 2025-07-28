@@ -17,7 +17,7 @@
 
 And follow instructions.
 
-# [SUPPORTED DISTROS](./add-aur-chaotic.sh)
+# [SUPPORTED DISTROS](./COMPATIBILITY-LIST.md)
 
 # Fork it!
 This is a short and simple script, you are encouraged to fork it and adapt it to your needs. Of course PR will welcomed!
