@@ -58,13 +58,13 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 45|[Devuan](https://www.devuan.org/)|OK||
 | 46|[ALT](https://getalt.org/)             |No|Distro not supported|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
-| 48|Red Hat|--|Never tested|
-| 49|Ultimate|||
-| 50|ReactOS|No|Not Linux, different OS|
-| 51|Xubuntu|OK||
-| 52|KaOS|No|Distro not supported| 
-| 53|Chimera|||
-| 54|Archcraft
+| 48|[Red Hat](https://redhat.com)          |OK|To be tested|
+| 49|[Ultimate](https://ultimateedition.info/)|OK|To be tested|
+| 50|[ReactOS](https://reactos.org/)        |No|Not Linux, different OS|
+| 51|[Xubuntu](https://xubuntu.org/)        |OK||
+| 52|[KaOS](https://kaosx.us/)              |No|Distro not supported| 
+| 53|[Chimera](https://chimera-linux.org/)  |No|Distro not supported| 
+| 54|[Archcraft](https://archcraft.io/)     |OK|To be tested|
 | 55|Vanilla|||
 | 56|Gentoo|No|Distro not supported| 
 | 57|Calculate|||
