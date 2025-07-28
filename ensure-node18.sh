@@ -30,7 +30,7 @@ function ensure_node18() {
   echo "We need tp add nodejs>18 via nodesource repo"
   sleep 2
   wait_for_apt
-  curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -; then
+  curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
 
   # free the LOCK before to end
   wait_for_apt

@@ -69,6 +69,9 @@ case "$ID" in
     debian | devuan| mint | pop| ubuntu)
         source ./ensure-node18.sh
         ensure_node18
+        title
+        echo "Distro detected: $PRETTY_NAME"
+        echo ""
         prepare_debs
         ;;
 
