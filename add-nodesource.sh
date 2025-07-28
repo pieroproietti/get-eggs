@@ -11,6 +11,7 @@ need_nodesource() {
       return 1 # nodejs 18 available
     fi
   done
+  echo "We need to add nodesource repos"
   return 0
 }
 
