@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 need_nodesource() {
+  NODE_MAJOR_VERSION="18"
   local available_versions
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
 
