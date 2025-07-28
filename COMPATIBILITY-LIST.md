@@ -83,24 +83,24 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 77|Regata|||
 | 78|ArchBang|||
 | 79|Emmabuntüs|OK||
-| 70|Tiny Core|--|Distro not supported|
-| 80|Oracle|--|Never tested|
-| 81|Murena|||
-| 82|4MLinux|||
-| 83|Bazzite|||
-| 84|AUSTRUMI|||
-| 85|Ultramarine|OK||
-| 86|TrueNAS|||
-| 87|Ubuntu MATE|OK||
-| 88|MakuluLinux|OK||
-| 89|Ubuntu Studio|OK||
-| 90|Proxmox|OK||
-| 91|Void|--|Distro not supported|
-| 92|OpenBSD|--|Not Linux, different OS|
-| 93|PikaOS|||
-| 94|Dr.Parted|||
-| 95|Damn Small|||
-| 96|Haiku|||
-| 97|BunsenLabs
-| 98|Endless|||
-| 99|Porteus|||
+| 80|Tiny Core|--|Distro not supported|
+| 81|Oracle|--|Never tested|
+| 82|Murena|||
+| 83|4MLinux|||
+| 84|Bazzite|||
+| 85|AUSTRUMI|||
+| 86|Ultramarine|OK||
+| 87|TrueNAS|||
+| 88|Ubuntu MATE|OK||
+| 89|MakuluLinux|OK||
+| 90|Ubuntu Studio|OK||
+| 91|Proxmox|OK||
+| 92|Void|--|Distro not supported|
+| 93|OpenBSD|--|Not Linux, different OS|
+| 94|PikaOS|||
+| 95|Dr.Parted|||
+| 96|Damn Small|||
+| 97|Haiku|||
+| 98|BunsenLabs
+| 99|Endless|||
+|1009|Porteus|||
