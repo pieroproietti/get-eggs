@@ -40,24 +40,24 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 27|[Alpine](https://www.alpinelinux.org/)|OK||
 | 28|[CentOS](https://www.centos.org/)      |||
 | 29|[Q4OS](https://q4os.org/)              |OK||
-| 30|Lite|OK||
-| 31|Puppy|--|Distro not supported|
-| 32|EasyOS|OK||
-| 33|Tails|OK||
-| 34|Kubuntu|OK||
-| 35|OpenMandriva|No|Distro not supported|
-| 36|deepin|OK||
-| 37|Linuxfx|OK||
-| 38|PCLinuxOS|No|Distro not supported|
-| 39|Voyager|--|--|
-| 40|Parrot|OK||
-| 41|Rocky|OK||
-| 42|Lubuntu|OK||
-| 43|Slackware|No|Distro not supported|
-| 44|PorteuX|--|--|
-| 45|Devuan|OK||
-| 46|ALT|||
-| 47|DragonOS|||
+| 30|[Lite](https://www.linuxliteos.com/)   |OK||
+| 31|[Puppy](https://puppylinux-woof-ce.github.io/)|No|Distro not supported|
+| 32|[EasyOS](https://easyos.org/)          |No|Distro not supported||
+| 33|[Tails](https://tails.net/)            |OK||
+| 34|[Kubuntu](https://kubuntu.org/)        |OK||
+| 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
+| 36|[deepin](https://www.deepin.org/index/en)  |OK||
+| 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
+| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported|
+| 39|[Voyager](https://voyagerlive.org/)    |OK||
+| 40|[Parrot](https://parrotsec.org/)       |OK||
+| 41|[Rocky](https://rockylinux.org/)       |OK||
+| 42|]Lubuntu](https://lubuntu.me/)         |OK||
+| 43|[Slackware](http://www.slackware.com/) |No|Distro not supported|
+| 44|[]PorteuX](https://www.porteus.org/)   |No||Distro not supported|
+| 45|[Devuan](https://www.devuan.org/)|OK||
+| 46|[ALT](https://getalt.org/)             |No|Distro not supported|
+| 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
 | 48|Red Hat|--|Never tested|
 | 49|Ultimate|||
 | 50|ReactOS|No|Not Linux, different OS|
