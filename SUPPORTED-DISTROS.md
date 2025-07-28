@@ -9,7 +9,7 @@ If you have different results, or know more, you can report it in the [issues](h
 
 The order reflect Page Hit Ranking at 2025 luly, 28:
 
-| Rank | Distro | Status | Note |
+| Rank | Name   | Status | Note |
 |------|--------|--------|------|
 |   1 |[CachyOS](https://cachyos.org/)      | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|
 |  2|[Mint](https://linuxmint.com/)        | OK|
