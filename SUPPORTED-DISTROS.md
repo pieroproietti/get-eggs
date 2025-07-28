@@ -27,7 +27,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 14|[NixOS](https://nixos.org/)            |No|Distro not supported|
 | 15|[KDE neon](https://neon.kde.org/)      |OK||
 | 16|[AnduinOS](https://www.anduinos.com/)  |OK||
-| 17|TUXEDO|(https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|UK||
+| 17|[TUXEDO](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|OK||
 | 18|[antiX](https://antixlinux.com/)       |OK||
 | 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||
 | 20|[Garuda](https://garudalinux.org/)     |No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
