@@ -22,15 +22,15 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 |  9|Fedora|OK||
 | 10|Zorin|OK||
 | 11|openSUSE|OK| calamares on the repos is not complete, use krill to install|
-| 12|Nobara|KO| calamares on the repos is not complete, and installation with krill don't boot too|
+| 12|Nobara|No| calamares on the repos is not complete, and installation with krill don't boot too|
 | 13|elementary|OK||
-| 14| NixOS|--|Distro not supported|
+| 14| NixOS|No|Distro not supported|
 | 15|KDE neon|OK||
 | 16|AnduinOS|OK||
 | 17|TUXEDO|||
 | 18|antiX|OK||
 | 19|Bluestar|OK||
-| 20|Garuda|KO|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
+| 20|Garuda|No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
 | 21|AlmaLinux|OK|version 9.6|
 | 22|Kali|OK||
 | 23|FreeBSD|--|Not Linux, different OS|
@@ -45,28 +45,28 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 32|EasyOS|OK||
 | 33|Tails|OK||
 | 34|Kubuntu|OK||
-| 35|OpenMandriva|--|Distro not supported|
+| 35|OpenMandriva|No|Distro not supported|
 | 36|deepin|OK||
 | 37|Linuxfx|OK||
-| 38|PCLinuxOS|KO|Distro not supported|
+| 38|PCLinuxOS|No|Distro not supported|
 | 39|Voyager|--|--|
 | 40|Parrot|OK||
 | 41|Rocky|OK||
 | 42|Lubuntu|OK||
-| 43|Slackware|--|Distro not supported|
+| 43|Slackware|No|Distro not supported|
 | 44|PorteuX|--|--|
 | 45|Devuan|OK||
 | 46|ALT|||
 | 47|DragonOS|||
 | 48|Red Hat|--|Never tested|
 | 49|Ultimate|||
-| 50|ReactOS|--|Not Linux, different OS|
+| 50|ReactOS|No|Not Linux, different OS|
 | 51|Xubuntu|OK||
-| 52|KaOS| KO|Distro not supported| 
+| 52|KaOS|No|Distro not supported| 
 | 53|Chimera|||
 | 54|Archcraft
 | 55|Vanilla|||
-| 56|Gentoo||Distro not supported| 
+| 56|Gentoo|No|Distro not supported| 
 | 57|Calculate|||
 | 58|Commodore|||
 | 59|Arch|OK||
@@ -102,12 +102,12 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 89|MakuluLinux|OK||
 | 90|Ubuntu Studio|OK||
 | 91|Proxmox|OK||
-| 92|Void|--|Distro not supported|
-| 93|OpenBSD|--|Not Linux, different OS|
+| 92|Void|No|Distro not supported|
+| 93|OpenBSD|No|Not Linux, different OS|
 | 94|PikaOS|||
 | 95|Dr.Parted|||
-| 96|Damn Small|||
+| 96|Damn Small|OK||
 | 97|Haiku|||
-| 98|BunsenLabs
+| 98|BunsenLabs|OK||
 | 99|Endless|||
 |100|Porteus|||
