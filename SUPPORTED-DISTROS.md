@@ -52,9 +52,9 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
 | 40|[Parrot](https://parrotsec.org/)       |OK||
 | 41|[Rocky](https://rockylinux.org/)       |OK||
-| 42|]Lubuntu](https://lubuntu.me/)         |OK||
+| 42|[Lubuntu](https://lubuntu.me/)         |OK||
 | 43|[Slackware](http://www.slackware.com/) |No|Distro not supported|
-| 44|[]PorteuX](https://www.porteus.org/)   |No||Distro not supported|
+| 44|[PorteuX](https://www.porteus.org/)   |No||Distro not supported|
 | 45|[Devuan](https://www.devuan.org/)|OK||
 | 46|[ALT](https://getalt.org/)             |No|Distro not supported|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
