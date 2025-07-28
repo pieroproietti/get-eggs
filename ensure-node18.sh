@@ -19,7 +19,7 @@ ensure_node18() {
 
   # add nodesource repository
   echo "adding nodesource repo"
-  if ! curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
+  if ! curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -; then
     echo "Where was an errore updating your repos"
     exit 1
   fi
