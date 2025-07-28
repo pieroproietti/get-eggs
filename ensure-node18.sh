@@ -22,7 +22,7 @@ function ensure_node18() {
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
       echo "Package nodejs $version is available..."
-      return
+      return 0
     fi
   done
 
