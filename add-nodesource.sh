@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-check_node18() {
+need_nodesource() {
   local available_versions
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
 
   for version in $available_versions; do
     if [[ "$version" =~ ^[0-9]+$ ]] && [ "$version" -ge "$NODE_MAJOR_VERSION" ]; then
       echo "Available $version. No need to add nodesource repo."
-      return true
+      return 1 # nodejs 18 available
     fi
   done
-  return false
+  return 0
 }
 
 add_nodesource() {
