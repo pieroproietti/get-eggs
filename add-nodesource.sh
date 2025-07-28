@@ -23,4 +23,6 @@ add_nodesource() {
   fi
 }
 
+# main
+need_nodesource
 
