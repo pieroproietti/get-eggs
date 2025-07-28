@@ -34,8 +34,4 @@ function ensure_node18() {
 
   # free the LOCK before to end
   wait_for_apt
-  apt-get install nodejs -y
-
-  # free the LOCK before to end
-  wait_for_apt
 }

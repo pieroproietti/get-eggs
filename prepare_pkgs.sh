@@ -26,7 +26,7 @@ function prepare_debs {
     FOLDER="debs"
     PACKAGES=("penguins-eggs_${LAST_RELEASE}-1_amd64.deb")
     INSTALL_CMDS=(
-        "apt-get /tmp/${PACKAGES[0]}"
+        "apt-get install /tmp/${PACKAGES[0]}"
     )
 }
 
