@@ -6,7 +6,7 @@ ensure_node18() {
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
 
   # refresh dei pacchetti
-  if ! apt update; then
+  if ! apt update -qq; then
     exit 1
   fi
 
@@ -20,7 +20,7 @@ ensure_node18() {
   # add nodesource repository
   echo "adding nodesource repo"
   curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
-  if ! apt update; then
+  if ! apt update -qq; then
     echo "Where was an errore updating your repos"
     exit 1
   fi
