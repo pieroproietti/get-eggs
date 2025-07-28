@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 
+function wait_for_apt {
+  while fuser /var/lib/dpkg/lock >/dev/null 2>&1 || fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do
+    echo "waitinf for another process APT/DPKG..."
+    sleep 5 # Attende 5 secondi prima di ricontrollare
+  done
+}
+
 function ensure_node18() {
   NODE_MAJOR_VERSION="18"
   local available_versions
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
 
   # refresh dei pacchetti
+  wait_for_apt
   if ! apt update -qq; then
     exit 1
   fi
