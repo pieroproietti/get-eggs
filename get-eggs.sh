@@ -28,6 +28,14 @@ function press_a_key_to_continue {
     title
 }
 
+function wait_for_apt {
+  while fuser /var/lib/dpkg/lock >/dev/null 2>&1 || fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do
+    echo "waitinf for another process APT/DPKG..."
+    sleep 5 # Attende 5 secondi prima di ricontrollare
+  done
+}
+
+
 
 # --- Controllo utente Root ---
 title

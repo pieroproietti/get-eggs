@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ensure_node18() {
+function ensure_node18() {
   NODE_MAJOR_VERSION="18"
   local available_versions
   available_versions=$(apt-cache policy nodejs 2>/dev/null | grep 'Candidate:' | awk '{print $2}' | cut -d'.' -f1)
@@ -23,10 +23,7 @@ ensure_node18() {
   title
   echo "We need tp add nodejs>18 via nodesource repo"
   press_a_key_to_continue
-  while fuser /var/lib/dpkg/lock >/dev/null 2>&1 || fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do
-    echo "Attendo che un altro processo APT/DPKG si liberi..."
-    sleep 5 # Attende 5 secondi prima di ricontrollare
-  done
+  wait_for_apt
   set -eo pipefail
   curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
 }
