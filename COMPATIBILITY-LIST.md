@@ -17,7 +17,7 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 11|openSUSE|OK| calamares on the repos is not complete, use krill to install|
 | 12|Nobara|KO| calamares on the repos is not complete, and installation with krill don't boot too|
 | 13|elementary|OK||
-| 14| NixOS|--|Indipendent distro!
+| 14| NixOS|--|Distro not supported|
 | 15|KDE neon|OK||
 | 16|AnduinOS|OK||
 | 17|TUXEDO|||
@@ -26,7 +26,7 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 20|Garuda|KO|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
 | 21|AlmaLinux|OK|version 9.6|
 | 22|Kali|OK||
-| 23|FreeBSD|--|Different OS|
+| 23|FreeBSD|--|Not Linux, different OS|
 | 24|Solus|--|--|
 | 25|SparkyLinux|OK||
 | 26|BigLinux|OK||
@@ -34,19 +34,19 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 28|CentOS|--|--|
 | 29|Q4OS|OK||
 | 30|Lite|OK||
-| 31|Puppy|--|Indipendent distro|
+| 31|Puppy|--|Distro not supported|
 | 32|EasyOS|OK||
 | 33|Tails|OK||
 | 34|Kubuntu|OK||
-| 35|OpenMandriva|--|Indipendent distro|
+| 35|OpenMandriva|--|Distro not supported|
 | 36|deepin|OK||
 | 37|Linuxfx|OK||
-| 38|PCLinuxOS|KO|Indipendent distro, as far as I know|
+| 38|PCLinuxOS|KO|Distro not supported|
 | 39|Voyager|--|--|
 | 40|Parrot|OK||
 | 41|Rocky|OK||
 | 42|Lubuntu|OK||
-| 43|Slackware|--|Indipendent distro|
+| 43|Slackware|--|Distro not supported|
 | 44|PorteuX|--|--|
 | 45|Devuan|OK||
 | 46|ALT|||
@@ -55,11 +55,11 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 49|Ultimate|||
 | 50|ReactOS: Another OS
 | 51|Xubuntu|OK||
-| 52|KaOS| KO|Indipendent distro| 
+| 52|KaOS| KO|Distro not supported| 
 | 53|Chimera|||
 | 54|Archcraft
 | 55|Vanilla|||
-| 56|Gentoo||Indipendent distro| 
+| 56|Gentoo||Distro not supported| 
 | 57|Calculate|||
 | 58|Commodore|||
 | 59|Arch|OK||
@@ -67,12 +67,12 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 61|Peppermint|OK||
 | 62|RebornOS|OK||
 | 63|blendOS|||
-| 64| Mageia|--|Indipendent distro|
+| 64| Mageia|--|Distro not supported|
 | 65|Rhino|OK||
 | 66|Bodhi|OK||
-| 67|FunOS|--|Indipendent distro|
+| 67|FunOS|--|Distro not supported|
 | 68|hostBSD: Another OS
-| 69|Nitrux|--|Indipendent distro|
+| 69|Nitrux|--|Distro not supported|
 | 70|wattO|||
 | 71|AV Linux|||
 | 72|Kodachi|||
@@ -83,7 +83,7 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 77|Regata|||
 | 78|ArchBang|||
 | 79|Emmabuntüs|OK||
-| 70|Tiny Core|--|Indipendent distro|
+| 70|Tiny Core|--|Distro not supported|
 | 80|Oracle|--|never tested|
 | 81|Murena|||
 | 82|4MLinux|||
@@ -95,8 +95,8 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 | 88|MakuluLinux|OK||
 | 89|Ubuntu Studio|OK||
 | 90|Proxmox|OK||
-| 91|Void|--|Indipendent distro|
-| 92|OpenBSD|--|Different OS|
+| 91|Void|--|Distro not supported|
+| 92|OpenBSD|--|Not Linux, different OS|
 | 93|PikaOS|||
 | 94|Dr.Parted|||
 | 95|Damn Small|||
