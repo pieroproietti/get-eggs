@@ -11,18 +11,18 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 
 | Rank | Distro | Status | Note |
 |------|--------|--------|------|
-|   1 | CachyOS | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|
-|  2|Mint| OK|
-|  3|MX Linux| OK| I suggest to remove mx-installer and mx-snapshot|
-|  4|EndeavourOS|OK||
-|  5|Debian|OK||
-|  6|Pop!_OS|OK||
-|  7|Manjaro|OK||
-|  8|Ubuntu|OK||
-|  9|Fedora|OK||
-| 10|Zorin|OK||
-| 11|openSUSE|OK| calamares on the repos is not complete, use krill to install|
-| 12|Nobara|No| calamares on the repos is not complete, and installation with krill don't boot too|
+|   1 |[CachyOS](https://cachyos.org/)      | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|
+|  2|[Mint](https://linuxmint.com/)        | OK|
+|  3|[MX Linux](https://mxlinux.org/)      |OK| I suggest to remove mx-installer and mx-snapshot|
+|  4|[EndeavourOS](https://endeavouros.com/)|OK||
+|  5|[Debian](https://www.debian.org/)      |OK||
+|  6|[Pop!_OS](https://system76.com/pop/)   |OK||
+|  7|[Manjaro](https://manjaro.org/)        |OK||
+|  8|[Ubuntu](https://manjaro.org/)         |OK||
+|  9|[Fedora](https://fedoraproject.org/)   |OK||
+| 10|[Zorin](https://zorin.com/os/)         |OK||
+| 11|[openSUSE](https://www.opensuse.org/)  |OK| calamares on the repos is not complete, use krill to install|
+| 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|
 | 13|elementary|OK||
 | 14| NixOS|No|Distro not supported|
 | 15|KDE neon|OK||
@@ -77,7 +77,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 64| Mageia|No|Distro not supported|
 | 65|Rhino|OK||
 | 66|Bodhi|OK||
-| 67|FunOS|--|Distro not supported|
+| 67|[FunOS](https://funos.org/)|OK||
 | 68|hostBSD|No|Not Linux, different OS|
 | 69|Nitrux|No|Distro not supported|
 | 70|wattO|||
