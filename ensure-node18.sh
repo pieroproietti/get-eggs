@@ -21,9 +21,5 @@ ensure_node18() {
   # add nodesource repository
   echo "We need tp add nodejs>18 via nodesource repo"
   press_a_key_to_continue
-  if ! curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -; then
-    echo "Where was an errore updating your repos"
-    press_a_key_to_continue
-    exit 1
-  fi
+  curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
 }
