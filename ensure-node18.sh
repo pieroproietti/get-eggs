@@ -33,5 +33,7 @@ function ensure_node18() {
   sleep 5
   wait_for_apt
   curl -fsSL "https://deb.nodesource.com/setup_$NODE_MAJOR_VERSION.x" | bash -
-  press_a_key_to_continue
+
+  # free the LOCK before to end
+  wait_for_apt
 }
