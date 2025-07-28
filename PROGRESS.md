@@ -10,15 +10,15 @@ This distro is Independent.
 
 # Supported
 
-* CachyOS
-* Mint
-* MX Linux
-* EndeavourOS
-* Debian
-* Pop!_OS
-* Manjaro
-* Ubunt
-* Fedora
+* CachyOS: OK, but you need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`
+* Mint: OK
+* MX Linux: OK, I suggest to remove mx-installer and mx-snapshot.
+* EndeavourOS: OK
+* Debian: OK
+* Pop!_OS: OK
+* Manjaro: OK
+* Ubunt: OK
+* Fedora: OK
 * Zorin
 * openSUSE
 * Nobara
