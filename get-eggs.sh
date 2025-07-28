@@ -67,7 +67,7 @@ case "$ID" in
         ;;
 
     debian | devuan| mint | pop| ubuntu)
-        source ./add-nodesource.sh
+        source ./ensure-node18.sh
         ensure_node18
         prepare_debs
         ;;
