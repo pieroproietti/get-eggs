@@ -17,9 +17,9 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 |  4|[EndeavourOS](https://endeavouros.com/)|OK||[download](https://drive.google.com/drive/folders/1ai5HSsNnQ65QWnTgtXI4kMRDpF9XqyQE)
 |  5|[Debian](https://www.debian.org/)      |OK||[download](https://drive.google.com/drive/folders/116YqAq55PBfbzXM9wLvyT2OXKuQPpKZr)
 |  6|[Pop!_OS](https://system76.com/pop/)   |OK||[Download](https://drive.google.com/drive/folders/1PpBhbE3XYJRCgE1gWmVgyHCkFgfxcIRt)
-|  7|[Manjaro](https://manjaro.org/)        |OK||
-|  8|[Ubuntu](https://manjaro.org/)         |OK||
-|  9|[Fedora](https://fedoraproject.org/)   |OK||
+|  7|[Manjaro](https://manjaro.org/)        |OK||[Download](https://drive.google.com/drive/folders/18C14m9nZIlYLA7zayRzDcqpZUWMoixyU)
+|  8|[Ubuntu](https://manjaro.org/)         |OK||[Download](https://drive.google.com/drive/folders/1zd-5istKS9eVHBcbXD7CL9T_UxjaKotQ)
+|  9|[Fedora](https://fedoraproject.org/)   |OK||[Download](https://drive.google.com/drive/folders/1B8am7G3FSxCD8rCLcyysDGTJD0GVUMhY)
 | 10|[Zorin](https://zorin.com/os/)         |OK||
 | 11|[openSUSE](https://www.opensuse.org/)  |OK| calamares on the repos is not complete, use krill to install|
 | 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|
