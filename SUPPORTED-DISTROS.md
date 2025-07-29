@@ -87,15 +87,15 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 74|[SDesk](https://stevestudios.net/sdesk/)   |OK|To be tested|
 | 75|[Artix](https://distrowatch.com/table.php?distribution=artix)|OK|To be tested|
 | 76|[Qubes](https://www.qubes-os.org/)     |OK|To be tested|
-| 77|[Regata](https://get.regataos.com.br/) |OK|OpenSuSE To be tested|
-| 78|[ArchBang](https://archbang.org/)      |OK|Arch To be tested|
+| 77|[Regata](https://get.regataos.com.br/) |OK|OpenSuSE based, to be tested|
+| 78|[ArchBang](https://archbang.org/)      |OK|Arch based. to be tested|
 | 79|[Emmabuntüs](https://emmabuntus.org/)  |OK||
-| 80|[Tiny Core](http://www.tinycorelinux.net/) |No|Distro not supported|
+| 80|[Tiny Core](http://www.tinycorelinux.net/) |No|Indipendent, not supported|
 | 81|[Oracle](https://www.oracle.com/it/linux/) |OK|To be tested|
 | 82|[Murena](https://murena.com/)              |No|Distro not supported|
 | 83|[4MLinux](https://4mlinux.com/index.php)   |No|Distro not supported|
-| 84|[Bazzite](Bazzite)                         |OK|Fedora To be tested|
-| 85|[AUSTRUMI](http://cyti.latgola.lv/ruuni/)|No|Distro not supported|
+| 84|[Bazzite](Bazzite)                         |OK|Fedora based To be tested|
+| 85|[AUSTRUMI](http://cyti.latgola.lv/ruuni/)|No|Slackware based, not supported|
 | 86|Ultramarine|OK||
 | 87|TrueNAS|||
 | 88|Ubuntu MATE|OK||
