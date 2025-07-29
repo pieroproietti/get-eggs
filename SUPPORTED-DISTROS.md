@@ -26,7 +26,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 13|[elementary](https://elementary.io)    |OK||[Download](https://drive.google.com/drive/folders/1ojMO3m4jv7fMPtBkN-xsGz7gu16hmta4)
 | 14|[NixOS](https://nixos.org/)            |No|Distro not supported|
 | 15|[KDE neon](https://neon.kde.org/)      |OK||[Download](https://drive.google.com/drive/folders/1bRyl0tc6c-a_J2Y5PFvdI2hyMGZ20OKn)
-| 16|[AnduinOS](https://www.anduinos.com/)  |OK||Download](https://drive.google.com/drive/folders/1gPhOxkuFn8i5X1cQO9v5Hr3NFo20JBOV)
+| 16|[AnduinOS](https://www.anduinos.com/)  |OK||[Download](https://drive.google.com/drive/folders/1gPhOxkuFn8i5X1cQO9v5Hr3NFo20JBOV)
 | 17|[TUXEDO](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|OK||
 | 18|[antiX](https://antixlinux.com/)       |OK||
 | 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||
