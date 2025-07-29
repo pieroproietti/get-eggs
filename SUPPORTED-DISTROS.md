@@ -53,7 +53,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 40|[Parrot](https://parrotsec.org/)       |OK||
 | 41|[Rocky](https://rockylinux.org/)       |OK||
 | 42|[Lubuntu](https://lubuntu.me/)         |OK||
-| 43|[Slackware](http://www.slackware.com/) |No|Slackware is not supported|
+| 43|[Slackware](http://www.slackware.com/) |No|Sorry Patrick, the great Slackware is not supported|
 | 44|[PorteuX](https://www.porteus.org/)    |No|Slackware based, not supported|
 | 45|[Devuan](https://www.devuan.org/)      |OK||
 | 46|[ALT](https://getalt.org/)             |No| not supported|
