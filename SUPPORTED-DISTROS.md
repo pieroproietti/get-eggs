@@ -54,8 +54,8 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 41|[Rocky](https://rockylinux.org/)       |OK||
 | 42|[Lubuntu](https://lubuntu.me/)         |OK||
 | 43|[Slackware](http://www.slackware.com/) |No|Distro not supported|
-| 44|[PorteuX](https://www.porteus.org/)   |No||Distro not supported|
-| 45|[Devuan](https://www.devuan.org/)|OK||
+| 44|[PorteuX](https://www.porteus.org/)    |No||Distro not supported|
+| 45|[Devuan](https://www.devuan.org/)      |OK||
 | 46|[ALT](https://getalt.org/)             |No|Distro not supported|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
 | 48|[Red Hat](https://redhat.com)          |OK|To be tested|
@@ -81,21 +81,21 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 68|[GhostBSD](https://www.ghostbsd.org/)  |No|Not Linux, different OS|
 | 69|[Nitrux](https://nxos.org/)            |No|Distro not supported|
 | 70|[wattOS](https://www.planetwatt.com/)  |OK||
-| 71|AV Linux|||
-| 72|Kodachi|||
-| 73|Mabox|OK||
-| 74|SDesk|||
-| 75|Artix|OK||
-| 76|Qubes|||
-| 77|Regata|||
-| 78|ArchBang|||
-| 79|Emmabuntüs|OK||
-| 80|Tiny Core|No|Distro not supported|
-| 81|Oracle|--|Never tested|
-| 82|Murena|||
-| 83|4MLinux|||
-| 84|Bazzite|||
-| 85|AUSTRUMI|||
+| 71|[AV Linux](https://cinelerra-gg.org/it/avlinux/)   |OK||
+| 72|[Kodachi](https://www.digi77.com/linux-kodachi/)   |OK||
+| 73|[Mabox](https://maboxlinux.org/)       |OK|To be tested|
+| 74|[SDesk](https://stevestudios.net/sdesk/)   |OK|To be tested|
+| 75|[Artix](https://distrowatch.com/table.php?distribution=artix|OK|To be tested|
+| 76|[Qubes](https://www.qubes-os.org/)     |OK|To be tested|
+| 77|[Regata](https://get.regataos.com.br/) |OK|OpenSuSE To be tested|
+| 78|[ArchBang](https://archbang.org/)      |OK|Arch To be tested|
+| 79|[Emmabuntüs](https://emmabuntus.org/)  |OK||
+| 80|[Tiny Core](http://www.tinycorelinux.net/) |No|Distro not supported|
+| 81|[Oracle](https://www.oracle.com/it/linux/) |OK|To be tested|
+| 82|[Murena](https://murena.com/)              |No|Distro not supported|
+| 83|[4MLinux](https://4mlinux.com/index.php)   |No|Distro not supported|
+| 84|[Bazzite](Bazzite)                         |OK|Fedora To be tested|
+| 85|[AUSTRUMI](http://cyti.latgola.lv/ruuni/)|No|Distro not supported|
 | 86|Ultramarine|OK||
 | 87|TrueNAS|||
 | 88|Ubuntu MATE|OK||
