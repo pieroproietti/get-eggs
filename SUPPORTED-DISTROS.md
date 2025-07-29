@@ -12,7 +12,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | Rank | Name   | Status | Note | Remasterized |
 |------|--------|--------|------|--------------|
 |   1 |[CachyOS](https://cachyos.org/)      | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|[download](https://drive.google.com/drive/folders/1fJwjObseZAz5uvk00cQXJH_pjkAAAL3r)
-|  2|[Mint](https://linuxmint.com/)        | OK|[download](https://drive.google.com/drive/folders/1oK_NiS-RSylS-ynf5ILh8xCkhAUl2HJs)
+|  2|[Mint](https://linuxmint.com/)        | OK||[download](https://drive.google.com/drive/folders/1oK_NiS-RSylS-ynf5ILh8xCkhAUl2HJs)
 |  3|[MX Linux](https://mxlinux.org/)      |OK| I suggest to remove mx-installer and mx-snapshot|
 |  4|[EndeavourOS](https://endeavouros.com/)|OK||
 |  5|[Debian](https://www.debian.org/)      |OK||
