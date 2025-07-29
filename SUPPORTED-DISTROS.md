@@ -48,7 +48,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
 | 36|[deepin](https://www.deepin.org/index/en)  |OK||
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
-| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported|
+| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|PCLinuxOS started from Mandrake and have a great history, but is not supported|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
 | 40|[Parrot](https://parrotsec.org/)       |OK||
 | 41|[Rocky](https://rockylinux.org/)       |OK||
@@ -56,7 +56,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 43|[Slackware](http://www.slackware.com/) |No|Sorry Patrick, the great Slackware is not supported|
 | 44|[PorteuX](https://www.porteus.org/)    |No|Slackware based, not supported|
 | 45|[Devuan](https://www.devuan.org/)      |OK||
-| 46|[ALT](https://getalt.org/)             |No| not supported|
+| 46|[ALT](https://getalt.org/)             |No| This distro was a fork of Mandrake, not supported|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
 | 48|[Red Hat](https://redhat.com)          |OK|To be tested|
 | 49|[Ultimate](https://ultimateedition.info/)|OK|To be tested|
