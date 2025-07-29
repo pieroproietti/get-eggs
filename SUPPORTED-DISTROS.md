@@ -96,16 +96,16 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 83|[4MLinux](https://4mlinux.com/index.php)   |No|Distro not supported|
 | 84|[Bazzite](Bazzite)                         |OK|Fedora based To be tested|
 | 85|[AUSTRUMI](http://cyti.latgola.lv/ruuni/)|No|Slackware based, not supported|
-| 86|Ultramarine|OK||
-| 87|TrueNAS|||
-| 88|Ubuntu MATE|OK||
-| 89|MakuluLinux|OK||
-| 90|Ubuntu Studio|OK||
-| 91|Proxmox|OK||
-| 92|Void|No|Distro not supported|
-| 93|OpenBSD|No|Not Linux, different OS|
-| 94|PikaOS|||
-| 95|Dr.Parted|||
+| 86|[Ultramarine](https://ultramarine-linux.org/)K|Fedora based To be tested|
+| 87|[TrueNAS](https://www.truenas.com/blog/first-release-of-truenas-on-linux/)|No|Distro not supported|
+| 88|[Ubuntu MATE](https://ubuntu-mate.org/)    |OK||
+| 89|[MakuluLinux](https://webos.makululinux.com/)|OK||
+| 90|[Ubuntu Studio](https://ubuntustudio.org/) |OK||
+| 91|[Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview)|OK|All you see born here!|
+| 92|[Void](https://voidlinux.org/)             |No|Distro not supported|
+| 93|[OpenBSD](https://www.openbsd.org/)        |No|Not Linux, different OS|
+| 94|[PikaOS](https://wiki.pika-os.com/en/home) |OK||
+| 95|[Dr.Parted](https://dr-parted-live.sourceforge.io/)    |OK|Debian based To be tested|
 | 96|Damn Small|OK||
 | 97|Haiku|||
 | 98|BunsenLabs|OK||
