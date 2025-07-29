@@ -65,22 +65,22 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 52|[KaOS](https://kaosx.us/)              |No|Distro not supported| 
 | 53|[Chimera](https://chimera-linux.org/)  |No|Distro not supported| 
 | 54|[Archcraft](https://archcraft.io/)     |OK|To be tested|
-| 55|Vanilla|||
-| 56|Gentoo|No|Distro not supported| 
-| 57|Calculate|||
-| 58|Commodore|||
-| 59|Arch|OK||
-| 60|Feren|||
-| 61|Peppermint|OK||
-| 62|RebornOS|OK||
-| 63|blendOS|||
-| 64| Mageia|No|Distro not supported|
-| 65|Rhino|OK||
-| 66|Bodhi|OK||
-| 67|[FunOS](https://funos.org/)|OK||
-| 68|hostBSD|No|Not Linux, different OS|
-| 69|Nitrux|No|Distro not supported|
-| 70|wattO|||
+| 55|[Vanilla](https://vanillaos.org/)      |OK|To be tested|
+| 56|[Gentoo](https://www.gentoo.org/)      |No|Distro not supported| 
+| 57|[Calculate](https://www.calculate-linux.org/)  |No|Distro not supported| 
+| 58|[Commodore](https://www.commodore.net/)|OK|To be tested|
+| 59|[Arch](https://archlinux.org/)         |OK||
+| 60|[Feren](https://ferenos.weebly.com/)   |OK||
+| 61|[Peppermint](https://peppermintos.com/)|OK||
+| 62|[RebornOS](https://rebornos.org/)      |OK|To be tested|
+| 63|[blendOS](https://blendos.co/)         |OK|To be tested|
+| 64|[Mageia](https://www.mageia.org)       |No|Distro not supported|
+| 65|[Rhino](https://rhinolinux.org/)       |OK|To be tested|
+| 66|[Bodhi](https://www.bodhilinux.com/)   |OK||
+| 67|[FunOS](https://funos.org/)            |OK||
+| 68|[GhostBSD](https://www.ghostbsd.org/)  |No|Not Linux, different OS|
+| 69|[Nitrux](https://nxos.org/)            |No|Distro not supported|
+| 70|[wattOS](https://www.planetwatt.com/)  |OK||
 | 71|AV Linux|||
 | 72|Kodachi|||
 | 73|Mabox|OK||
