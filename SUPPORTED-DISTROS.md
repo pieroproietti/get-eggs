@@ -13,10 +13,10 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 |------|--------|--------|------|--------------|
 |   1 |[CachyOS](https://cachyos.org/)      | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|[download](https://drive.google.com/drive/folders/1fJwjObseZAz5uvk00cQXJH_pjkAAAL3r)
 |  2|[Mint](https://linuxmint.com/)        | OK||[download](https://drive.google.com/drive/folders/1oK_NiS-RSylS-ynf5ILh8xCkhAUl2HJs)
-|  3|[MX Linux](https://mxlinux.org/)      |OK| I suggest to remove mx-installer and mx-snapshot|
-|  4|[EndeavourOS](https://endeavouros.com/)|OK||
-|  5|[Debian](https://www.debian.org/)      |OK||
-|  6|[Pop!_OS](https://system76.com/pop/)   |OK||
+|  3|[MX Linux](https://mxlinux.org/)      |OK| I suggest to remove mx-installer and mx-snapshot|[download](https://drive.google.com/drive/folders/1-Xq4XfWkzlN14UEBr6ituSQ_A0zRT8Z5)
+|  4|[EndeavourOS](https://endeavouros.com/)|OK||[download](https://drive.google.com/drive/folders/1ai5HSsNnQ65QWnTgtXI4kMRDpF9XqyQE)
+|  5|[Debian](https://www.debian.org/)      |OK||[download](https://drive.google.com/drive/folders/116YqAq55PBfbzXM9wLvyT2OXKuQPpKZr)
+|  6|[Pop!_OS](https://system76.com/pop/)   |OK||[Download](https://drive.google.com/drive/folders/1PpBhbE3XYJRCgE1gWmVgyHCkFgfxcIRt)
 |  7|[Manjaro](https://manjaro.org/)        |OK||
 |  8|[Ubuntu](https://manjaro.org/)         |OK||
 |  9|[Fedora](https://fedoraproject.org/)   |OK||
