@@ -85,7 +85,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 72|[Kodachi](https://www.digi77.com/linux-kodachi/)   |OK||
 | 73|[Mabox](https://maboxlinux.org/)       |OK|To be tested|
 | 74|[SDesk](https://stevestudios.net/sdesk/)   |OK|To be tested|
-| 75|[Artix](https://distrowatch.com/table.php?distribution=artix|OK|To be tested|
+| 75|[Artix](https://distrowatch.com/table.php?distribution=artix)|OK|To be tested|
 | 76|[Qubes](https://www.qubes-os.org/)     |OK|To be tested|
 | 77|[Regata](https://get.regataos.com.br/) |OK|OpenSuSE To be tested|
 | 78|[ArchBang](https://archbang.org/)      |OK|Arch To be tested|
