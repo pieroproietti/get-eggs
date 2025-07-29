@@ -9,8 +9,8 @@ If you have different results, or know more, you can report it in the [issues](h
 
 The order reflect Page Hit Ranking at 2025 luly, 28:
 
-| Rank | Name   | Status | Note | Remasterized |
-|------|--------|--------|------|--------------|
+| Rank | Name   | Status | Note | Remastered |
+|------|--------|--------|------|------------|
 |   1 |[CachyOS](https://cachyos.org/)      | OK| You need to: edit `/etc/os-release` and insert the line: `ID_LIKE=arch`, then create a symlink: `ln -s /boot/initramfs-initramfs.img /boot/initramfs-$(uname -r).img`|[download](https://drive.google.com/drive/folders/1fJwjObseZAz5uvk00cQXJH_pjkAAAL3r)
 |  2|[Mint](https://linuxmint.com/)        | OK||[download](https://drive.google.com/drive/folders/1oK_NiS-RSylS-ynf5ILh8xCkhAUl2HJs)
 |  3|[MX Linux](https://mxlinux.org/)      |OK| I suggest to remove mx-installer and mx-snapshot|[download](https://drive.google.com/drive/folders/1-Xq4XfWkzlN14UEBr6ituSQ_A0zRT8Z5)
@@ -25,7 +25,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|[Download](https://drive.google.com/drive/folders/1iiw1Itfo3-zGwn4jeM-LvWZbcbYKTd3Q)
 | 13|[elementary](https://elementary.io)    |OK||[Download](https://drive.google.com/drive/folders/1ojMO3m4jv7fMPtBkN-xsGz7gu16hmta4)
 | 14|[NixOS](https://nixos.org/)            |No|Distro not supported|
-| 15|[KDE neon](https://neon.kde.org/)      |OK||
+| 15|[KDE neon](https://neon.kde.org/)      |OK||[Download](https://drive.google.com/drive/folders/1bRyl0tc6c-a_J2Y5PFvdI2hyMGZ20OKn)
 | 16|[AnduinOS](https://www.anduinos.com/)  |OK||
 | 17|[TUXEDO](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|OK||
 | 18|[antiX](https://antixlinux.com/)       |OK||
