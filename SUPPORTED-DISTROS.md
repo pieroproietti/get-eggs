@@ -106,8 +106,8 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 93|[OpenBSD](https://www.openbsd.org/)        |No|Not Linux, different OS|
 | 94|[PikaOS](https://wiki.pika-os.com/en/home) |OK||
 | 95|[Dr.Parted](https://dr-parted-live.sourceforge.io/)    |OK|Debian based To be tested|
-| 96|Damn Small|OK||
-| 97|Haiku|||
-| 98|BunsenLabs|OK||
-| 99|Endless|||
-|100|Porteus|||
+| 96|[Damn Small](https://www.damnsmalllinux.org/)          |OK|Debian based, to be tested|
+| 97|[Haiku](https://www.haiku-os.org/)         |No|Distro not supported|
+| 98|[BunsenLabs](https://www.bunsenlabs.org/)  |OK||
+| 99|[Endless](https://www.endlessos.org/)      |OK|Debian based, to be tested|
+|100|[Porteus](https://www.porteus.org/)        |OK|Slackware based, not supported|
