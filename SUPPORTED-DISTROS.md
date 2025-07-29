@@ -21,8 +21,8 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 |  8|[Ubuntu](https://manjaro.org/)         |OK||[Download](https://drive.google.com/drive/folders/1zd-5istKS9eVHBcbXD7CL9T_UxjaKotQ)
 |  9|[Fedora](https://fedoraproject.org/)   |OK||[Download](https://drive.google.com/drive/folders/1B8am7G3FSxCD8rCLcyysDGTJD0GVUMhY)
 | 10|[Zorin](https://zorin.com/os/)         |OK||[Download](https://drive.google.com/drive/folders/1MOz7BZIpsVwZmMI_OersLQlLmzTn9Ib9)
-| 11|[openSUSE](https://www.opensuse.org/)  |OK| calamares on the repos is not complete, use krill to install|
-| 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|
+| 11|[openSUSE](https://www.opensuse.org/)  |OK| calamares on the repos is not complete, use krill to install|[Download](https://drive.google.com/drive/folders/1MOz7BZIpsVwZmMI_OersLQlLmzTn9Ib9)
+| 12|[Nobara](https://nobaraproject.org/)   |No| calamares on the repos is not complete, and installation with krill don't boot too|[Download](https://drive.google.com/drive/folders/1iiw1Itfo3-zGwn4jeM-LvWZbcbYKTd3Q)
 | 13|[elementary](https://elementary.io)    |OK||
 | 14|[NixOS](https://nixos.org/)            |No|Distro not supported|
 | 15|[KDE neon](https://neon.kde.org/)      |OK||
