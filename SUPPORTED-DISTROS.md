@@ -31,13 +31,13 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 18|[antiX](https://antixlinux.com/)       |OK||
 | 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||
 | 20|[Garuda](https://garudalinux.org/)     |No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
-| 21|[AlmaLinux](https://almalinux.org/)    |OK|version 9.6|
+| 21|[AlmaLinux](https://almalinux.org/)    |OK|version 9.6|[Download](https://drive.google.com/drive/folders/1KVd6uRlX5bwICCCuWcX42uxHj3vJRK3T)
 | 22|[Kali](https://www.kali.org/)          |OK||
 | 23|[FreeBSD](https://www.freebsd.org/)    |No|Not Linux, different OS|
 | 24|[Solus](https://getsol.us/)            |No|Distro not supported|
 | 25|[SparkyLinux](https://sparkylinux.org/)|OK||
-| 26|[BigLinux](https://sparkylinux.org/)   |OK||
-| 27|[Alpine](https://www.alpinelinux.org/)|OK||
+| 26|[BigLinux](https://sparkylinux.org/)   |OK||[Download](https://drive.google.com/drive/folders/1hWq1-B6nNU09AxddXmPm4GXRsXCECp99)
+| 27|[Alpine](https://www.alpinelinux.org/)|OK||[Download](https://drive.google.com/drive/folders/1xLSkmYDqwe01MEkDdYWG__gCNrqatLmr)
 | 28|[CentOS](https://www.centos.org/)      |||
 | 29|[Q4OS](https://q4os.org/)              |OK||
 | 30|[Lite](https://www.linuxliteos.com/)   |OK||
@@ -51,8 +51,8 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 38|[PCLinuxOS](https://pclinuxos.com/)    |No|PCLinuxOS started from Mandrake and have a great history, but is not supported|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
 | 40|[Parrot](https://parrotsec.org/)       |OK||
-| 41|[Rocky](https://rockylinux.org/)       |OK||
-| 42|[Lubuntu](https://lubuntu.me/)         |OK||
+| 41|[Rocky](https://rockylinux.org/)       |OK||[Download](https://drive.google.com/drive/folders/1perjMEKAo5F-ezb2TXbae5dACstJ5VAl)
+| 42|[Lubuntu](https://lubuntu.me/)         |OK||[Download](https://drive.google.com/drive/folders/16M3nUtqa-38RkHea6RPUhY9PSe63ODmK)
 | 43|[Slackware](http://www.slackware.com/) |No|Sorry Patrick, the great Slackware is not supported|
 | 44|[PorteuX](https://www.porteus.org/)    |No|Slackware based, not supported|
 | 45|[Devuan](https://www.devuan.org/)      |OK||
@@ -69,7 +69,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 56|[Gentoo](https://www.gentoo.org/)      |No|Distro not supported| 
 | 57|[Calculate](https://www.calculate-linux.org/)  |No|Distro not supported| 
 | 58|[Commodore](https://www.commodore.net/)|OK|To be tested|
-| 59|[Arch](https://archlinux.org/)         |OK||
+| 59|[Arch](https://archlinux.org/)         |OK||[Download](https://drive.google.com/drive/folders/1qWh-hWjldQpb6TWSDY9h8tKdD4VadkOr)
 | 60|[Feren](https://ferenos.weebly.com/)   |OK||
 | 61|[Peppermint](https://peppermintos.com/)|OK||
 | 62|[RebornOS](https://rebornos.org/)      |OK|To be tested|
