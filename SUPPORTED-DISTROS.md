@@ -35,7 +35,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 22|[Kali](https://www.kali.org/)          |OK||[Download](https://drive.google.com/drive/folders/1Yikb1fLiK10u03AD6QBqzpDZXPkJdjEF)
 | 23|[FreeBSD](https://www.freebsd.org/)    |No|Not Linux, different OS|
 | 24|[Solus](https://getsol.us/)            |No|Distro not supported|
-| 25|[SparkyLinux](https://sparkylinux.org/)|OK||
+| 25|[SparkyLinux](https://sparkylinux.org/)|OK||[Download](https://drive.google.com/drive/folders/1IX07xKfCJQH2KJ1Ab5FW5Ch3ddkaj-Zv)
 | 26|[BigLinux](https://sparkylinux.org/)   |OK||[Download](https://drive.google.com/drive/folders/1hWq1-B6nNU09AxddXmPm4GXRsXCECp99)
 | 27|[Alpine](https://www.alpinelinux.org/)|OK||[Download](https://drive.google.com/drive/folders/1xLSkmYDqwe01MEkDdYWG__gCNrqatLmr)
 | 28|[CentOS](https://www.centos.org/)      |||
