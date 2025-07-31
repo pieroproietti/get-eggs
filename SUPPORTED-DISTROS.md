@@ -29,7 +29,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 16|[AnduinOS](https://www.anduinos.com/)  |OK||[Download](https://drive.google.com/drive/folders/1gPhOxkuFn8i5X1cQO9v5Hr3NFo20JBOV)
 | 17|[TUXEDO](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)|OK||[Download](https://drive.google.com/drive/folders/1bl3cXKI6sSrvpFNezRNRhLsP6d2biupW)
 | 18|[antiX](https://antixlinux.com/)       |OK||
-| 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||
+| 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK||[Download](https://drive.google.com/drive/folders/1hRyW0KDq0lyW7BxveoL1tKo-y__WCaf1)
 | 20|[Garuda](https://garudalinux.org/)     |No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
 | 21|[AlmaLinux](https://almalinux.org/)    |OK|version 9.6|[Download](https://drive.google.com/drive/folders/1KVd6uRlX5bwICCCuWcX42uxHj3vJRK3T)
 | 22|[Kali](https://www.kali.org/)          |OK||
