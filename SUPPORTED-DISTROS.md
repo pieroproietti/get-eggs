@@ -32,7 +32,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 19|[Bluestar](https://distrowatch.com/table.php?distribution=bluestar)|OK|Need to clean eggs.yaml|[Download](https://drive.google.com/drive/folders/1hRyW0KDq0lyW7BxveoL1tKo-y__WCaf1)
 | 20|[Garuda](https://garudalinux.org/)     |No|It use dracut to build initramfs and its package `garuda-dracut` conflict with `mkinitcpio`|
 | 21|[AlmaLinux](https://almalinux.org/)    |OK|version 9.6|[Download](https://drive.google.com/drive/folders/1KVd6uRlX5bwICCCuWcX42uxHj3vJRK3T)
-| 22|[Kali](https://www.kali.org/)          |OK||
+| 22|[Kali](https://www.kali.org/)          |OK||[Download](https://drive.google.com/drive/folders/1Yikb1fLiK10u03AD6QBqzpDZXPkJdjEF)
 | 23|[FreeBSD](https://www.freebsd.org/)    |No|Not Linux, different OS|
 | 24|[Solus](https://getsol.us/)            |No|Distro not supported|
 | 25|[SparkyLinux](https://sparkylinux.org/)|OK||
