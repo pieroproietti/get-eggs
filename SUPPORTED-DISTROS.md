@@ -44,7 +44,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 31|[Puppy](https://puppylinux-woof-ce.github.io/)|No|Distro not supported|
 | 32|[EasyOS](https://easyos.org/)          |No|Distro not supported||
 | 33|[Tails](https://tails.net/)            |OK||
-| 34|[Kubuntu](https://kubuntu.org/)        |OK||
+| 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
 | 36|[deepin](https://www.deepin.org/index/en)  |OK||
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
