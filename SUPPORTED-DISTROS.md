@@ -46,7 +46,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 33|[Tails](https://tails.net/)            |OK||
 | 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
-| 36|[deepin](https://www.deepin.org/index/en)  |OK||
+| 36|[deepin](https://www.deepin.org/index/en)  |OK|sudo deepin-immutable-writable enable before to install eggs|[Download]()
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
 | 38|[PCLinuxOS](https://pclinuxos.com/)    |No|PCLinuxOS started from Mandrake and have a great history, but is not supported|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
