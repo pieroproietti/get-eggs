@@ -43,12 +43,12 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 30|[Lite](https://www.linuxliteos.com/)   |OK||[Download](https://drive.google.com/drive/folders/1ARW-39JPyFgjAwBcAK6O9-jnDdgu1SV5)
 | 31|[Puppy](https://puppylinux-woof-ce.github.io/)|No|Distro not supported|
 | 32|[EasyOS](https://easyos.org/)          |No|Distro not supported||
-| 33|[Tails](https://tails.net/)            |OK||
+| 33|[Tails](https://tails.net/)            |OK|Distro not supported||
 | 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
-| 36|[deepin](https://www.deepin.org/index/en)  |OK|sudo deepin-immutable-writable enable before to install eggs|[Download]()
+| 36|[deepin](https://www.deepin.org/index/en)  |Ko|Give `sudo deepin-immutable-writable enable` and install penguins-eggs package .deb manually|
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
-| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|PCLinuxOS started from Mandrake and have a great history, but is not supported|
+| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported! PCLinuxOS started from Mandrake and have a great history|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
 | 40|[Parrot](https://parrotsec.org/)       |OK||
 | 41|[Rocky](https://rockylinux.org/)       |OK||[Download](https://drive.google.com/drive/folders/1perjMEKAo5F-ezb2TXbae5dACstJ5VAl)
