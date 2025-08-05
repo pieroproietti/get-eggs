@@ -45,12 +45,12 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 32|[EasyOS](https://easyos.org/)          |No|Distro not supported||
 | 33|[Tails](https://tails.net/)            |OK|Distro not supported||
 | 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
-| 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
+| 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported, Mandrake based|
 | 36|[deepin](https://www.deepin.org/index/en)  |Ko|Give `sudo deepin-immutable-writable enable` and install penguins-eggs package .deb manually|
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||[Download](https://drive.google.com/drive/folders/1pbNHEOrrYQJ3pqiH07SPzNoeSl1EbzCI)
-| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported! PCLinuxOS started from Mandrake and have a great history|
+| 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported! Mandrake based|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||[Download](https://drive.google.com/drive/folders/1fDfoEw_0r-R7K7xZ7aazTXmg2sNQ4_v4)
-| 40|[Parrot](https://parrotsec.org/)       |OK||[Download](https://drive.google.com/drive/folders/1DYbAgEhX6B17HLB_sttRP2fCs-yr0x2o)
+| 40|[Parrot](https://parrotsec.org/)       |OK||get problems to reinstall, must to check[Download](https://drive.google.com/drive/folders/1DYbAgEhX6B17HLB_sttRP2fCs-yr0x2o)
 | 41|[Rocky](https://rockylinux.org/)       |OK||[Download](https://drive.google.com/drive/folders/1perjMEKAo5F-ezb2TXbae5dACstJ5VAl)
 | 42|[Lubuntu](https://lubuntu.me/)         |OK||[Download](https://drive.google.com/drive/folders/16M3nUtqa-38RkHea6RPUhY9PSe63ODmK)
 | 43|[Slackware](http://www.slackware.com/) |No|Distro not supported, Slackware based|
