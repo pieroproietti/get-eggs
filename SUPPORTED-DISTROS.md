@@ -50,13 +50,13 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||[Download](https://drive.google.com/drive/folders/1pbNHEOrrYQJ3pqiH07SPzNoeSl1EbzCI)
 | 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported! PCLinuxOS started from Mandrake and have a great history|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||[Download](https://drive.google.com/drive/folders/1fDfoEw_0r-R7K7xZ7aazTXmg2sNQ4_v4)
-| 40|[Parrot](https://parrotsec.org/)       |OK||
+| 40|[Parrot](https://parrotsec.org/)       |OK||[Download](https://drive.google.com/drive/folders/1DYbAgEhX6B17HLB_sttRP2fCs-yr0x2o)
 | 41|[Rocky](https://rockylinux.org/)       |OK||[Download](https://drive.google.com/drive/folders/1perjMEKAo5F-ezb2TXbae5dACstJ5VAl)
 | 42|[Lubuntu](https://lubuntu.me/)         |OK||[Download](https://drive.google.com/drive/folders/16M3nUtqa-38RkHea6RPUhY9PSe63ODmK)
-| 43|[Slackware](http://www.slackware.com/) |No|Sorry Patrick, the great Slackware is not supported|
-| 44|[PorteuX](https://www.porteus.org/)    |No|Slackware based, not supported|
-| 45|[Devuan](https://www.devuan.org/)      |OK||
-| 46|[ALT](https://getalt.org/)             |No| This distro was a fork of Mandrake, not supported|
+| 43|[Slackware](http://www.slackware.com/) |No|Distro not supported, Slackware based|
+| 44|[PorteuX](https://www.porteus.org/)    |No|Distro not supported, Slackware based|
+| 45|[Devuan](https://www.devuan.org/)      |OK|[Download](https://drive.google.com/drive/folders/1cOpanKa-zRjwBi-1fwSCFf8JfmKfw40w)|
+| 46|[ALT](https://getalt.org/)             |No|Distro not supperted, Mandrake based|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
 | 48|[Red Hat](https://redhat.com)          |OK|To be tested|
 | 49|[Ultimate](https://ultimateedition.info/)|OK|To be tested|
