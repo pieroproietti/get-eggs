@@ -55,7 +55,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 42|[Lubuntu](https://lubuntu.me/)         |OK||[Download](https://drive.google.com/drive/folders/16M3nUtqa-38RkHea6RPUhY9PSe63ODmK)
 | 43|[Slackware](http://www.slackware.com/) |No|Distro not supported, Slackware based|
 | 44|[PorteuX](https://www.porteus.org/)    |No|Distro not supported, Slackware based|
-| 45|[Devuan](https://www.devuan.org/)      |OK|[Download](https://drive.google.com/drive/folders/1cOpanKa-zRjwBi-1fwSCFf8JfmKfw40w)|
+| 45|[Devuan](https://www.devuan.org/)      |OK||[Download](https://drive.google.com/drive/folders/1cOpanKa-zRjwBi-1fwSCFf8JfmKfw40w)|
 | 46|[ALT](https://getalt.org/)             |No|Distro not supperted, Mandrake based|
 | 47|[DragonOS](https://sourceforge.net/projects/dragonos-focal/)|OK||
 | 48|[Red Hat](https://redhat.com)          |OK|To be tested|
