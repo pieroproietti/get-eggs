@@ -47,7 +47,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported|
 | 36|[deepin](https://www.deepin.org/index/en)  |Ko|Give `sudo deepin-immutable-writable enable` and install penguins-eggs package .deb manually|
-| 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||
+| 37|[Linuxfx](https://distrowatch.com/table.php?distribution=linuxfx)  |OK||[Download](https://drive.google.com/drive/folders/1pbNHEOrrYQJ3pqiH07SPzNoeSl1EbzCI)
 | 38|[PCLinuxOS](https://pclinuxos.com/)    |No|Distro not supported! PCLinuxOS started from Mandrake and have a great history|
 | 39|[Voyager](https://voyagerlive.org/)    |OK||
 | 40|[Parrot](https://parrotsec.org/)       |OK||
@@ -72,7 +72,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 59|[Arch](https://archlinux.org/)         |OK||[Download](https://drive.google.com/drive/folders/1qWh-hWjldQpb6TWSDY9h8tKdD4VadkOr)
 | 60|[Feren](https://ferenos.weebly.com/)   |OK||
 | 61|[Peppermint](https://peppermintos.com/)|OK||
-| 62|[RebornOS](https://rebornos.org/)      |OK|To be tested|
+| 62|[RebornOS](https://rebornos.org/)      |OK|Tested from Ian Briggs|
 | 63|[blendOS](https://blendos.co/)         |OK|To be tested|
 | 64|[Mageia](https://www.mageia.org)       |No|Distro not supported|
 | 65|[Rhino](https://rhinolinux.org/)       |OK|To be tested|
