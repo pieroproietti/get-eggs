@@ -43,7 +43,7 @@ The order reflect Page Hit Ranking at 2025 luly, 28:
 | 30|[Lite](https://www.linuxliteos.com/)   |OK||[Download](https://drive.google.com/drive/folders/1ARW-39JPyFgjAwBcAK6O9-jnDdgu1SV5)
 | 31|[Puppy](https://puppylinux-woof-ce.github.io/)|No|Distro not supported|
 | 32|[EasyOS](https://easyos.org/)          |No|Distro not supported||
-| 33|[Tails](https://tails.net/)            |OK|Distro not supported||
+| 33|[Tails](https://tails.net/)            |OK|Distro not supported. it's mostly a live||
 | 34|[Kubuntu](https://kubuntu.org/)        |OK||[Download](https://drive.google.com/drive/folders/1-nmLVxbvzOjLXPMYXdV4cCnbUCoipnMr)
 | 35|[OpenMandriva](https://www.openmandriva.org/)  |No|Distro not supported, Mandrake based|
 | 36|[deepin](https://www.deepin.org/index/en)  |Ko|Give `sudo deepin-immutable-writable enable` and install penguins-eggs package .deb manually|

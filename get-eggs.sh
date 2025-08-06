@@ -8,7 +8,7 @@
 # ==============================================================================
 
 # --- Variabili Globali ---
-LAST_RELEASE="25.7.30"
+LAST_RELEASE="25.8.6"
 URL_BASE="https://penguins-eggs.net/basket/packages"
 
 source ./ensure-node18.sh
