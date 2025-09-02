@@ -50,6 +50,12 @@ function prepare_manjaro {
     INSTALL_CMDS=("pacman -U --noconfirm /tmp/${PACKAGES[0]}")
 }
 
+function prepare_openmamba {
+    FOLDER="openmamba"
+    PACKAGES=("penguins-eggs-${LAST_RELEASE}-1mamba.x86_64.rpm")
+    INSTALL_CMDS=("dnd installls  /tmp/${PACKAGES[0]}")
+}
+
 
 function prepare_opensuse {
     FOLDER="opensuse"

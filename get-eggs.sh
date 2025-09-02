@@ -8,7 +8,7 @@
 # ==============================================================================
 
 # --- Variabili Globali ---
-LAST_RELEASE="25.8.31"
+LAST_RELEASE="25.9.2"
 URL_BASE="https://penguins-eggs.net/basket/packages"
 
 source ./ensure-node18.sh
@@ -82,7 +82,11 @@ case "$ID" in
     manjaro | biglinux)
         prepare_manjaro
         ;;
-    
+
+    openmamba)
+        prepare_openmamba
+        ;;
+
     sles | opensuse-tumbleweed | opensuse-slowroll | opensuse-leap)
         prepare_opensuse
         ;;
