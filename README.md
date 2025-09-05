@@ -1,4 +1,4 @@
-# get-eggs
+# fresh-eggs
 
 # [Donate](https://www.paypal.com/pool/9h2CmPBaPG?sr=wccr)
 It took years of work to create the penguins-eggs, and I also incurred expenses for renting the site and subscribing to Google Gemini, for the artificial intelligence that is now indispensable.
@@ -9,7 +9,7 @@ Thanks you!
 
 [![donate](https://img.shields.io/badge/penguinseggs-donate-cyan)](https://www.paypal.com/pool/9h2CmPBaPG?sr=wccr)
 
-**get-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and most derivatives.
+**fresh-eggs**: install penguins-eggs and configure it on your AlmaLinux, AlpineLinux, Arch, Debian, Devuan, Fedora, Manjaro, Openmamba, openSuSE, RockyLinu, Ubuntu and most derivatives.
 
 # Notes
 * on Debian/Devuan/Ubuntu and derivatives - after you installed eggs - it's possible to add  [pengins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa) to get updates via apt. To enable it: `sudo eggs tools ppa --add`;
@@ -20,9 +20,9 @@ Thanks you!
 
 # USAGE
 
-* `git clone https://github.com/pieroproietti/get-eggs`
-* `cd get-eggs`
-* `sudo ./get-eggs`
+* `git clone https://github.com/pieroproietti/fresh-eggs`
+* `cd fresh-eggs`
+* `sudo ./fresh-eggs`
 
 And follow instructions.
 

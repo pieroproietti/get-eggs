@@ -4,7 +4,7 @@ I just take the list from [distrowatch](https://distrowatch.com/), to get an ide
 
 Most of the information comes from direct experience, even from some time ago, and there may be errors. For example, some time ago Garuda could be remastered by removing the garuda-dracut package, but now it cannot.
 
-If you have different results, or know more, you can report it in the [issues](https://github.com/pieroproietti/get-eggs/issues).
+If you have different results, or know more, you can report it in the [issues](https://github.com/pieroproietti/fresh-eggs/issues).
 
 
 The order reflect Page Hit Ranking at 2025 luly, 28:

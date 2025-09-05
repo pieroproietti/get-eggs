@@ -25,7 +25,7 @@ DOWNLOAD_PAGE="https://sourceforge.net/projects/penguins-eggs/files/Packages/tar
 
 clear
 if [[ $FOUND == 1 ]]; then
-    echo ">> get-eggs: OK, is $ID, penguins-eggs can be installed"
+    echo ">> fresh-eggs: OK, is $ID, penguins-eggs can be installed"
     echo ""
     echo "First: if SELINUX is enbled, disable it, and reboot;"
     echo ""
@@ -42,5 +42,5 @@ if [[ $FOUND == 1 ]]; then
     echo ""
     echo "enjoy it!"
 else
-    echo ">> get-eggs: is $ID, penguins-eggs install the package"
+    echo ">> fresh-eggs: is $ID, penguins-eggs install the package"
 fi

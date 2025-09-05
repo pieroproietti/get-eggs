@@ -9,7 +9,7 @@ function main {
     is_aur
 
     echo ""
-    echo ">> get-eggs: add spare tools..."
+    echo ">> fresh-eggs: add spare tools..."
     echo ""
     pacman -S  bash-completion \
                 dialog \
@@ -19,7 +19,7 @@ function main {
                 wget
 
     echo ""
-    echo ">> get-eggs: add AUR repository..."
+    echo ">> fresh-eggs: add AUR repository..."
     echo ""
     echo 
     pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
@@ -29,19 +29,19 @@ function main {
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
     echo ""
-    echo ">> get-eggs: Installing penguins-eggs..."
+    echo ">> fresh-eggs: Installing penguins-eggs..."
     echo ""
     pacman -Sy penguins-eggs
 
     echo ""
-    read -rp ">> get-eggs: press a key to edit /etc/sudoers"
+    read -rp ">> fresh-eggs: press a key to edit /etc/sudoers"
     echo ""
     export EDITOR=nano
     visudo
 
     eggs dad -d
 
-    echo ">> get-eggs: finished! You can remove it"
+    echo ">> fresh-eggs: finished! You can remove it"
 }
 
 main
